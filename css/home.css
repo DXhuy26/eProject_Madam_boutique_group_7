@@ -1,0 +1,209 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+
+#about {
+	padding: 25px;
+	background: url(1.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#home {
+	height: 250px;
+	padding: 25px;
+	background: url(1.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#home2 {
+	height: 250px;
+	padding: 25px;
+	background: url(2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/*dropdown
+.navbar-brand-centered {
+	position: absolute;
+	left: 50%;
+	display: block;
+	width: 160px;
+	text-align: center;
+	background-color: transparent;
+}*/
+
+/*dropdown
+.navbar>.container .navbar-brand-centered,
+.navbar>.container-fluid .navbar-brand-centered {
+	margin-left: -80px;
+}*/
+
+
+
+
+
+body {
+	font-family: 'Signika', sans-serif;
+	/*Scroll To Top Button*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.bg-grey {
+	background: #292929;
+}
+
+
+::placeholder {
+	font-size: 10px;
+	padding-left: 10px;
+	font-style: italic;
+}
+
+
+
+.social .fa {
+	color: rgb(221, 206, 206);
+	font-size: 22px;
+	padding: 10px 15px;
+	background: #3c3c3c;
+}
+
+
+
+
+.logo-part {
+	border-right: 1px solid grey;
+	height: 100%;
+}
+
+/*test*/
+
+h6,
+ul,
+li {
+	color: rgb(224, 243, 156)
+}
+
+/*footer*/
+
+footer ul li {
+	list-style: none;
+	display: block;
+}
+
+footer ul {
+	padding-left: 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: rgb(224, 243, 156);
+	text-decoration: none;
+}
+
+.form-footer input[type="button"] {
+	border: none;
+	background: #232323;
+	margin-left: -5px;
+	color: #fff;
+	outline: none;
+	border-radius: 0 16px 16px 0;
+	padding: 2px 12px;
+}
+
+footer p,
+a {
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+}
+
+footer h6 {
+	/*gach chan duoi day "help us"*/
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+footer h6:after {
+	/*gach chan duoi day "help us"*/
+	position: absolute;
+	content: "";
+	background: grey;
+	width: 12%;
+	height: 1px;
+	left: 0;
+	bottom: -20px;
+}
+
+.btn-footer {
+	color: rgb(221, 206, 206);
+	text-decoration: none;
+	border: 1px solid;
+	border-radius: 43px;
+	font-size: 13px;
+	padding: 7px 30px;
+	line-height: 47px;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+	background-color: #7e7e7e;
+	padding: 25px;
+}
+
+footer {
+	color: grey;
+}
+
+.logo-footer {
+	margin-bottom: 40px;
+}
+
+.btn-footer:hover {
+	text-decoration: none;
+
+}
+
+.form-footer input[type="text"] {
+	border: none;
+	border-radius: 16px 0 0 16px;
+	outline: none;
+	padding-left: 10px;
+}
+
+/*Scroll To Top Button*/
+
+#myBtn {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Fixed/sticky position */
+	bottom: 20px;
+	/* Place the button at the bottom of the page */
+	right: 30px;
+	/* Place the button 30px from the right */
+	z-index: 99;
+	/* Make sure it does not overlap */
+	border: none;
+	/* Remove borders */
+	outline: none;
+	/* Remove outline */
+	background-color: red;
+	/* Set a background color */
+	color: white;
+	/* Text color */
+	cursor: pointer;
+	/* Add a mouse pointer on hover */
+	padding: 15px;
+	/* Some padding */
+	border-radius: 20px;
+	/* Rounded corners */
+	font-size: 18px;
+	/* Increase font size */
+}
