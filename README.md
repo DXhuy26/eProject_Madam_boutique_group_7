@@ -2,7 +2,7 @@
 
 Project title: Madam's Boutique - the home store website
 
-========> Group 5 <=========
+========> Group 7 <=========
 
 3 collaborators:
 
