@@ -4,7 +4,6 @@
 	border-radius: 0;
 }
 
-
 #about {
 	padding: 25px;
 	background: url(1.png);
@@ -13,7 +12,7 @@
 }
 
 #home {
-	height: 250px;
+	height: 350px;
 	padding: 25px;
 	background: url(1.png);
 	background-repeat: no-repeat;
@@ -27,25 +26,6 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
-/*dropdown
-.navbar-brand-centered {
-	position: absolute;
-	left: 50%;
-	display: block;
-	width: 160px;
-	text-align: center;
-	background-color: transparent;
-}*/
-
-/*dropdown
-.navbar>.container .navbar-brand-centered,
-.navbar>.container-fluid .navbar-brand-centered {
-	margin-left: -80px;
-}*/
-
-
-
-
 
 body {
 	font-family: 'Signika', sans-serif;
@@ -65,17 +45,12 @@ body {
 	font-style: italic;
 }
 
-
-
 .social .fa {
 	color: rgb(221, 206, 206);
 	font-size: 22px;
 	padding: 10px 15px;
 	background: #3c3c3c;
 }
-
-
-
 
 .logo-part {
 	border-right: 1px solid grey;

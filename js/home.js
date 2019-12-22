@@ -38,6 +38,8 @@ $(document).ready(function () {
 
     /*slide tu dong */
     $('.carousel').carousel({
-        interval: 2000
+        interval: 4000
     })
+
+    
 });

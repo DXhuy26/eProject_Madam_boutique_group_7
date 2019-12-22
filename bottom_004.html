@@ -5,16 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Us</title>
-    <!--css va js co gi thay doi duong dan-->
+    <title>BOTTOMS</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/home.js"></script>
 
+    <script src="js/home.js"></script>
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body {
+            position: relative;
+        }
+    </style>
 </head>
 
 <body>
@@ -66,57 +72,110 @@
             </div>
         </div>
     </nav>
+    <div class="container-fluid">
+        <div class="container-fluid text-center" style="font-size: 2em; padding-top: 60px;">
+            <h1>Madam's Boutique Bottoms</h1>
+        </div>
+    </div>
+    <hr>
+    <section>
+        <div class="ep_slideshow-container" style="margin-top: 30px;" id="body">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="galary">
 
-    <div class="jumbotron">
-        <div class="container text-center">
-            <h2>ABOUT US</h2>
-            <div id="about" class="well">
-                <p> Madam’s Boutique is the leading store of branded and designer clothes for women.
-                    The boutique has tie up with various designers whose collection is on their display.
-                    Also different apparel, accessories collection is also available with the store.</p>
-            </div>
+                                <a class="ep_dot" onclick="currentSlide(0)">
+                                    <img src="img/_bottoms/Corduroy Flare Pants 2000365207/00365207-01.jpg" alt=""
+                                        class="ls-is" width="100%">
+                                </a>
+                                <a class="ep_dot" onclick="currentSlide(1)">
+                                    <img src="img/_bottoms/Corduroy Flare Pants 2000365207/00365207-02.jpg" alt=""
+                                        width="100%">
+                                </a>
+                                <a class="ep_dot" onclick="currentSlide(2)">
+                                    <img src="img/_bottoms/Corduroy Flare Pants 2000365207/00365207-03.jpg" alt=""
+                                        width="100%">
+                                </a>
+                                <a class="ep_dot" onclick="currentSlide(3)">
+                                    <img src="img/_bottoms/Corduroy Flare Pants 2000365207/00365207-04.jpg" alt=""
+                                        width="100%">
+                                </a>
+                                <a class="ep_dot" onclick="currentSlide(4)">
+                                    <img src="img/_bottoms/Corduroy Flare Pants 2000365207/00365207-05.jpg" alt=""
+                                        width="100%">
+                                </a>
+                            </div>
 
+                        </div>
+                        <div class="col-md-8">
+                            <div class="slideshow-container">
+                                <div class="ep_mySlides ep_fade">
+                                    <img src="img/_bottoms/Corduroy Flare Pants 2000365207/00365207-01.jpg"
+                                        style="width:100%" alt="">
+                                </div>
 
-            <div class="row well" style="margin-left: 0px; margin-right: 0px">
-                <div class="col-sm-4">
-                    <img src="img/_group/vo duc chinh.jpg" alt="" width="60%">
-                    <div class="caption">
-                        <h3>Vo Duc Chinh</h3>
-                        <p>Email: vdchinh2310@gmail.com</p>
-                        <div class="social-connect">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
+                                <div class="ep_mySlides ep_fade">
+                                    <img src="img/_bottoms/Corduroy Flare Pants 2000365207/00365207-02.jpg"
+                                        style="width:100%" alt="">
+                                </div>
+
+                                <div class="ep_mySlides ep_fade">
+                                    <img src="img/_bottoms/Corduroy Flare Pants 2000365207/00365207-03.jpg"
+                                        style="width:100%" alt="">
+                                </div>
+
+                                <div class="ep_mySlides ep_fade">
+
+                                    <img src="img/_bottoms/Corduroy Flare Pants 2000365207/00365207-04.jpg"
+                                        style="width:100%" alt="">
+                                </div>
+
+                                <div class="ep_mySlides ep_fade">
+
+                                    <img src="img/_bottoms/Corduroy Flare Pants 2000365207/00365207-05.jpg"
+                                        style="width:100%" alt="">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <img src="img/_group/Hoang Giang Chuan.jpg" alt="" width="60%">
-                    <div class="caption">
-                        <h3>Hoang Giang Chuan</h3>
-                        <p>Email: hoanggiangchuan@gmail.com</p>
-                        <div class="social-connect">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                        </div>
+
+                <div class="col-md-4 text-left" id="main">
+                    <div class="text-muted">
+                        <p>ID: 004</p>
+                        <h4>Name: Corduroy Flare Pants</h4>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <img src="img/_group/Dao Nguyen Xuan Huy.jpg" alt="" width="60%">
-                    <div class="caption">
-                        <h3>Dao Nguyen Xuan Huy</h3>
-                        <p>Email: huydrk@gmail.com</p>
-                        <div class="social-connect">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                        </div>
+                    <div>
+                        <h4 style="color: orange;">$31.00</h4>
+                        <hr>
+                    </div>
+                    <div class="text-muted">
+                        <h5>Usually ships in 4 - 8 business days.</h5>
+                    </div>
+
+                    <a href="#" class="btn btn-lg btn-default btn-block btn-warning">Buy</a>
+                    <br>
+                    <div>
+                        <h4 style="font-weight: bold;">PRODUCT INFORMATION</h4>
+                        <hr>
+                        <h5>Details</h5>
+                        <h6 class="text-muted">A pair of corduroy pants featuring a high-rise waist, belt loops,
+                            traditional five-pocket construction, zip fly with button closure, and a flare leg.
+                        </h6>
+                        <h5>Content + Care</h5>
+                        <h6 class="text-muted">- 78% polyester, 21% rayon, 1% spandex
+
+                            - Hand wash cold</h6>
+                        <h5>Size + Fit</h5>
+                        <h6 class="text-muted">- Model is 5'10" and wearing a Small</h6>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <hr>
 
     <!--footer-->
     <div>
@@ -137,7 +196,7 @@
                                 <div class="row ">
                                     <div class="col-md-6">
                                         <ul>
-                                            <li> <a href="home.html"> Home</a> </li>
+                                            <li> <a href="Home.html"> Home</a> </li>
                                             <li> <a href="About_us.html"> About</a> </li>
                                             <li> <a href="#"> Collection Hit</a> </li>
                                             <li> <a href="Contact_us.html"> Contact</a> </li>
@@ -187,6 +246,42 @@
             </div>
         </footer>
     </div>
+
+
 </body>
+<script>
+    //khai báo biến slideIndex đại diện cho slide hiện tại
+    var slideIndex;
+    // KHai bào hàm hiển thị slide
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("ep_mySlides");
+        var dots = document.getElementsByClassName("ep_dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+
+        slides[slideIndex].style.display = "block";
+        dots[slideIndex].className += " active";
+        //chuyển đến slide tiếp theo
+
+        //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+        if (slideIndex > slides.length - 1) {
+            slideIndex = 0
+        }
+        //tự động chuyển đổi slide sau 5s
+        setTimeout(showSlides, 5000);
+    }
+    //mặc định hiển thị slide đầu tiên 
+    showSlides(slideIndex = 0);
+
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+</script>
 
 </html>
