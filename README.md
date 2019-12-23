@@ -18,6 +18,6 @@ github report link: https://github.com/
 
 ============================
 
-eProject published at https://github.com/huydrk/eProject_Madam_boutique_group-7
+eProject published at https://huydrk.github.io/eProject_Madam_boutique_group_7/. 
 
 ============================
