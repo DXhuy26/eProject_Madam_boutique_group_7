@@ -59,3 +59,14 @@
   font-weight: 600;
   text-transform: uppercase
 }
+
+.head1{
+  font-size: 1.5em;
+  word-spacing: 25px;
+  font-weight: bold;
+  color: black;
+  text-indent: 50px;
+  
+}
+
+
