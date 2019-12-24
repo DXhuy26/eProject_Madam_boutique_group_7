@@ -61,9 +61,8 @@ body {
 
 /*test*/
 
-h6,
-ul,
-li {
+h6
+ {
 	color: rgb(224, 243, 156)
 }
 
