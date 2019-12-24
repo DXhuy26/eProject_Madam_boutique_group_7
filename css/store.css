@@ -19,7 +19,8 @@
 
 .img-card {
   width: 100%;
-  height: 500px; /*chinh khung hinh*/
+  height: 500px;
+  /*chinh khung hinh*/
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   display: block;
@@ -28,7 +29,8 @@
 
 .img-card img {
   width: 100%;
- height: 500px; /*chinh khung hinh*/
+  height: 500px;
+  /*chinh khung hinh*/
   object-fit: cover;
   transition: all .25s ease;
 }
@@ -60,13 +62,22 @@
   text-transform: uppercase
 }
 
-.head1{
+.head1 {
   font-size: 1.5em;
   word-spacing: 25px;
   font-weight: bold;
   color: black;
   text-indent: 50px;
-  
+
 }
 
+body {
+  position: relative;
+}
 
+/*font cho store*/
+
+#font {
+  color: rgb(32, 27, 27);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

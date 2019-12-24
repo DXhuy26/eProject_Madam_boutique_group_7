@@ -4,23 +4,26 @@
 	border-radius: 0;
 }
 
+/*background logo*/
 #about {
 	padding: 25px;
 	background: url(1.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center top; 
+	background-position: center top;
 }
 
+/*background logo*/
 #home {
 	height: 350px;
 	padding: 25px;
 	background: url(1.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center top; 
+	background-position: center top;
 }
 
+/*background logo*/
 #home2 {
 	height: 250px;
 	padding: 25px;
@@ -35,6 +38,22 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 }
+
+/*font*/
+#font1 {
+	color: rgb(32, 27, 27);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*font*/
+#font2 {
+	font-family: cursive;
+	font-style: italic;
+	color: black;
+	font-size: 2em;
+
+}
+
 
 .bg-grey {
 	background: #292929;
@@ -61,8 +80,7 @@ body {
 
 /*test*/
 
-h6
- {
+h6 {
 	color: rgb(224, 243, 156)
 }
 
