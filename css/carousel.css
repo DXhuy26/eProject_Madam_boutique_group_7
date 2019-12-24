@@ -3,6 +3,10 @@
   height: 500px;
 }
 
+#box{
+  height: 250px;
+}
+
 #caption1 {
   top: 20%;
   bottom: 0;
