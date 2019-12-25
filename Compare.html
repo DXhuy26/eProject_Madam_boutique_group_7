@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>Store</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
- 
+
 </head>
 
 <body>
@@ -62,108 +62,258 @@
         </div>
     </nav>
 
-    <div class="container-fluid well">
+    <div class="jumbotron-fluid">
         <div class="text-center">
             <img src="img/_slide/fashion-engagement-1700x720.jpg" alt="" width="100%" height="500px">
         </div>
     </div>
-    <br>
 
-    <!--compare-->
-    <div class="container-fluid">
-        <div class="col-sm-3">
-            <div id="btngroup">
-                <ol>
-                    <li><button class="btn active" onclick="fillterselection('all')">ALL STYLE</button></li>
-                    <li><button class="btn" onclick="fillterselection('dresses')">DRESSES</button></li>
-                    <li><button class="btn" onclick="fillterselection('tops')">TOPS</button></li>
-                    <li><button class="btn" onclick="fillterselection('bottoms')">BOTTOMS</button></li>
-                    <li><button class="btn" onclick="fillterselection('jeans')">JEANS</button></li>
-                    <li><button class="btn" onclick="fillterselection('jackets&coats')">JACKETS&COATS</button></li>
-                    <li><button class="btn" onclick="fillterselection('sets')">SETS</button></li>
-                </ol>
-            </div>
-        </div>
+    <!--modal (hien khung ket qua-->
+    <div class="modal fade modal-lg" id="myModal" >
+        <div class="modal-dialog modal-lg">
 
-        <div class="col-sm-9">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-4 filterDiv bottoms">
-                        <div class="card">
-                            <a class="img-card" href="#">
-                                <input type="checkbox" name="btncheck" id="btncheck" style="float: right;">
-                                <img src="img/_jeans/Distressed Release-Hem Skinny Jeans/1.jpg" />
-                            </a>
-                            <br />
-                            <div class="card-content">
-                                <h4 class="card-title">
-                                    <a href="#">
-                                        129$
-                                    </a>
-                                </h4>
-                                <div class="">
-                                    #1018
+            <!--modal ghi thong tin trong khung hien-->
+            <div class="modal-content">
+                <div class="modal-header" role="document">
+                    <!--nut dong khung-->
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!--thong tin cua o so sanh-->
+                    <div class="container">
+                        <div class="col-md-2">
+                            <table class="table table-striped custab">
+                                <div class="col-sm-3">
+                                    <thead>
+                                        <!--sanh sach so sanh-->
+                                        <tr>
+                                            <th id="">Info</th>
+                                        </tr>
+                                    </thead>
+                                    <tr>
+                                        <td>Img</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Name</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Details</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Content + Care</td>
+                                    </tr>
+                                    <tr>
+                                        <td>$</td>
+                                    </tr>
                                 </div>
-                            </div>
-                            <div class="card-read-more">
-                                <a class="btn btn-link btn-block" href="#">
-                                    BUY NOW
-                                </a>
-                            </div>
+                            </table>
+                        </div>
+                        <div class="col-md-2">
+                            <table class="table table-striped custab">
+                                <div class="col-sm-3">
+                                    <thead>
+                                        <!--sanh sach so sanh-->
+                                        <tr>
+                                            <th id="">Info</th>
+                                        </tr>
+                                    </thead>
+                                    <tr>
+                                        <td>Img</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Name</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Details</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Content + Care</td>
+                                    </tr>
+                                    <tr>
+                                        <td>$</td>
+                                    </tr>
+                                </div>
+                            </table>
+                        </div>
+                        <div class="col-md-2">
+                            <table class="table table-striped custab">
+                                <div class="col-sm-3">
+                                    <thead>
+                                        <!--sanh sach so sanh-->
+                                        <tr>
+                                            <th id="">Info</th>
+                                        </tr>
+                                    </thead>
+                                    <tr>
+                                        <td>Img</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Name</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Details</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Content + Care</td>
+                                    </tr>
+                                    <tr>
+                                        <td>$</td>
+                                    </tr>
+                                </div>
+                            </table>
+                        </div>
+                        <div class="col-md-2">
+                            <table class="table table-striped custab">
+                                <div class="col-sm-3">
+                                    <thead>
+                                        <!--sanh sach so sanh-->
+                                        <tr>
+                                            <th id="">Info</th>
+                                        </tr>
+                                    </thead>
+                                    <tr>
+                                        <td>Img</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Name</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Details</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Content + Care</td>
+                                    </tr>
+                                    <tr>
+                                        <td>$</td>
+                                    </tr>
+                                </div>
+                            </table>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="card">
-                            <a class="img-card" href="#">
-                                <img src="img/_jeans/Distressed Skinny Jeans/1.jpg" />
-                            </a>
-                            <br />
-                            <div class="card-content">
-                                <h4 class="card-title">
-                                    <a href="#">
-                                        139$
-                                    </a>
-                                </h4>
-                                <div class="">
-                                    #1019
-                                </div>
-                            </div>
-                            <div class="card-read-more">
-                                <a class="btn btn-link btn-block" href="#">
-                                    BUY NOW
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="card">
-                            <a class="img-card" href="#">
-                                <img src="img/_jeans/Push-Up Skinny High-Rise Ankle Jeans/1.jpg" />
-                            </a>
-                            <br />
-                            <div class="card-content">
-                                <h4 class="card-title">
-                                    <a href="#">
-                                        149$
-                                    </a>
-                                </h4>
-                                <div class="">
-                                    #1020
-                                </div>
-                            </div>
-                            <div class="card-read-more">
-                                <a class="btn btn-link btn-block" href="#">
-                                    BUY NOW
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
     </div>
 
+    <!--tong the cua store-->
+    <div class="container-fluid well">
+        <!--store bottom thanh ben trai-->
+        <div class="col-sm-2">
+            <div class="col-xs-12 col-sm-12 well text-center">
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal"
+                    data-target="#myModal">COMPARE</button>
+
+            </div>
+            <div class="col">
+                <ol>
+                    <h3>CATEGORY</h3>
+                </ol>
+                <ol style="list-style-type: none;">
+                    <li><a href="">DRESSES</a></li><br>
+                    <li><a href="">TOPS</a></li><br>
+                    <li><a href="Store_bottoms.html">BOTTOMS</a></li><br>
+                    <li><a href="Store_jeans.html">JEANS</a></li><br>
+                    <li><a href="">JACKETS&COATS</a></li><br>
+                    <li><a href="">SETS</a></li>
+                </ol>
+            </div>
+            <hr>
+        </div>
+
+        <!--thanh ben phai-->
+        <div class="col-sm-10">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 well text-center">
+                        <h3>COMPARE</h3>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="card">
+                            <div>
+                                <a class="img-card" href="bottom1.html">
+                                    <img
+                                        src="img/bottoms/Chain-Accent Cargo Joggers Product Code  2000384049/00384049-01.jpg" /></a>
+                            </div>
+
+                            <div class="">
+                                <div class="col-sm-6 well">
+                                    <a href="bottom1.html">
+                                        BUY NOW
+                                    </a>
+                                </div>
+                                <div class="col-sm-3 well">
+                                    <a href="bottom1.html">
+                                        BUY
+                                    </a>
+                                </div>
+                                <div class="col-sm-3 well">
+                                    <a href="bottom1.html">
+                                        BUY
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="card">
+                            <div>
+                                <a class="img-card" href="bottom1.html">
+                                    <img
+                                        src="img/bottoms/Chain-Accent Cargo Joggers Product Code  2000384049/00384049-01.jpg" /></a>
+                            </div>
+
+                            <div class="">
+                                <div class="col-sm-6 well">
+                                    <a href="bottom1.html">
+                                        BUY NOW
+                                    </a>
+                                </div>
+                                <div class="col-sm-3 well">
+                                    <a href="bottom1.html">
+                                        BUY
+                                    </a>
+                                </div>
+                                <div class="col-sm-3 well">
+                                    <a href="bottom1.html">
+                                        BUY
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="card">
+                            <div>
+                                <a class="img-card" href="bottom1.html">
+                                    <img
+                                        src="img/bottoms/Chain-Accent Cargo Joggers Product Code  2000384049/00384049-01.jpg" /></a>
+                            </div>
+
+                            <div class="">
+                                <div class="col-sm-6 well">
+                                    <a href="bottom1.html">
+                                        BUY NOW
+                                    </a>
+                                </div>
+                                <div class="col-sm-3 well">
+                                    <a href="bottom1.html">
+                                        BUY
+                                    </a>
+                                </div>
+                                <div class="col-sm-3 well">
+                                    <a href="bottom1.html">
+                                        BUY
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--button scroll-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <!--footer-->
     <div>
@@ -181,7 +331,7 @@
                             <div class="col-md-6 px-4">
                                 <h6> Help us</h6>
                                 <!--chu-->
-                                <div class="row ">
+                                <div class="row">
                                     <div class="col-md-6">
                                         <ul>
                                             <li> <a href="Home.html"> Home</a> </li>
@@ -236,10 +386,9 @@
     </div>
 </body>
 <script src="js/home.js"></script>
-<script src="js/compare.js"></script>
 <link rel="stylesheet" href="css/home.css">
-<link rel="stylesheet" href="css/store.css">
 <link rel="stylesheet" href="css/carousel.css">
+<link rel="stylesheet" href="css/store.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </html>
