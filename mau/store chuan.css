@@ -60,22 +60,15 @@
   text-transform: uppercase
 }
 .head1{
-  
   font-size: 1.5em;
- 
   word-spacing: 25px;
   font-weight: bold;
- 
   text-indent: 50px;
   
 }
 .head2{
-  
-  
-  
   word-spacing: 100px;
   font-weight: bold;
- 
   text-indent: 50px;  
 }
 

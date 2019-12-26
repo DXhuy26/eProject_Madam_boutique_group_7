@@ -108,7 +108,6 @@ $(function () {
 
       /* append product */
       myAppend();
-      /************************************/
 
       /*display*/
       $('#forever21').click(function () {

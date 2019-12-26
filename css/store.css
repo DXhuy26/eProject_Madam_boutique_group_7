@@ -66,10 +66,16 @@
   font-size: 1.5em;
   word-spacing: 25px;
   font-weight: bold;
-  color: black;
   text-indent: 50px;
 
 }
+
+.head2{
+  word-spacing: 100px;
+  font-weight: bold;
+  text-indent: 50px;  
+}
+
 
 body {
   position: relative;
