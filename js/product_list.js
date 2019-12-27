@@ -126,6 +126,7 @@ var ds = [
         Made: 'VietNam',
         sell: '9'
     },
+
     {
         id: '00d00r2',
         size: 'free size',
@@ -141,86 +142,92 @@ var ds = [
     },
 
     //tops
-    //
+    //indya
+    //0TIN01
     {
-        id: 't0000g1',
+        id: '0TIN01',
         size: 'S,M,L',
         type: 't',
-        color: 'blue',
-        cost: '380',
-        link0: 'img/_top/gordress/1/0.jpg',
-        link1: 'img/_top/gordress/1/1.jpg',
-        link2: 'img/_top/gordress/1/2.jpg',
-        manufacturer: 'gordress',
-        Made: 'VietNam',
+        color: 'orange',
+        cost: '38',
+        link0: 'img/tops/indya/d004/1d.jpg',
+        link1: 'img/tops/indya/d004/3d.jpg',
+        link2: 'img/tops/indya/d004/4d.jpg',
+        manufacturer: 'indya',
+        Made: 'India',
         sell: '9'
     },
+    //0TIN02
     {
-        id: 't0000g2',
+        id: '0TIN02',
         size: 'S,M,L',
         type: 't',
-        color: 'white',
-        cost: '350',
-        link0: 'img/_top/gordress/2/0.jpg',
-        link1: 'img/_top/gordress/2/1.jpg',
-        link2: 'img/_top/gordress/2/2.jpg',
-        manufacturer: 'gordress',
-        Made: 'VietNam',
-        sell: '4'
+        color: 'yellow',
+        cost: '35',
+        link0: 'img/tops/indya/d005/1e.jpg',
+        link1: 'img/tops/indya/d005/2e.jpg',
+        link2: 'img/tops/indya/d005/4e.jpg',
+        manufacturer: 'indya',
+        Made: 'India',
+        sell: '6'
     },
 
-    //
+    //forever21
+    //0TF001
     {
-        id: 't0000p1',
+        id: '0TF001',
         size: 'S,M,L',
         type: 't',
-        color: 'white',
-        cost: '400',
-        link0: 'img/_top/polkaholics/1/0.jpg',
-        link1: 'img/_top/polkaholics/1/1.jpg',
-        link2: 'img/_top/polkaholics/1/2.jpg',
-        manufacturer: 'polkaholics',
-        Made: 'VietNam',
+        color: 'black',
+        cost: '30',
+        link0: 'img/tops/forever21/d001/1.jpg',
+        link1: 'img/tops/forever21/d001/2.jpg',
+        link2: 'img/tops/forever21/d001/5.jpg',
+        manufacturer: 'forever21',
+        Made: 'USA',
         sell: '8'
     },
+    //0TF002
     {
-        id: 't0000p2',
+        id: '0TF002',
         size: 'S,M,L',
         type: 't',
         color: 'white',
-        cost: '380',
-        link0: 'img/_top/polkaholics/2/0.jpg',
-        link1: 'img/_top/polkaholics/2/1.jpg',
-        link2: 'img/_top/polkaholics/2/2.jpg',
-        manufacturer: 'pokaholics',
-        Made: 'VietNam',
+        cost: '40',
+        link0: 'img/tops/forever21/d003/1b.jpg',
+        link1: 'img/tops/forever21/d003/2b.jpg',
+        link2: 'img/tops/forever21/d003/5b.jpg',
+        manufacturer: 'forever21',
+        Made: 'USA',
         sell: '7'
     },
 
-    //
+    //ivymoda
+    //0TIV01
     {
-        id: 't0000h1',
+        id: '0TIV01',
         size: 'S,M,L',
         type: 't',
-        color: 'sky blue',
-        cost: '340',
-        link0: 'img/_top/hoivu/1/0.jpg',
-        link1: 'img/_top/hoivu/1/1.jpg',
-        link2: 'img/_top/hoivu/1/2.jpg',
-        manufacturer: 'hoivu',
+        color: 'grey',
+        cost: '24',
+        link0: 'img/tops/ivymoda/d008/1k.jpg',
+        link1: 'img/tops/ivymoda/d008/2k.jpg',
+        link2: 'img/tops/ivymoda/d008/4k.jpg',
+        manufacturer: 'ivymoda',
         Made: 'VietNam',
         sell: '3'
     },
+    //0TIV02
     {
-        id: 't0000h2',
+        id: '0TIV02',
         size: 'free size',
         type: 't',
-        color: 'red',
-        cost: '280',
-        link0: 'img/_top/hoivu/2/0.jpg',
-        link1: 'img/_top/hoivu/2/1.jpg',
-        link2: 'img/_top/hoivu/2/2.jpg',
-        manufacturer: 'hoivu',
+        color: 'blue',
+        cost: '20',
+        link0: 'img/tops/ivymoda/d009/1n.jpg',
+        link1: 'img/tops/ivymoda/d009/2n.jpg',
+        link2: 'img/tops/ivymoda/d009/5n.jpg',
+        manufacturer: 'ivymoda',
         Made: 'VietNam',
         sell: '8'
     },
@@ -282,7 +289,7 @@ var ds = [
     },
 
     //bottoms
-    //
+    //indya
     {
         id: '0BIN01',
         size: 'S, M, L',
@@ -297,17 +304,17 @@ var ds = [
         sell: '4'
     },
     {
-        id: '0b000g2',
+        id: '0BIN02',
         size: 'S, M, L',
         type: 'b',
-        color: 'orange',
-        cost: '400',
-        link0: 'img/_bottom/gordress/2/0.jpg',
-        link1: 'img/_bottom/gordress/2/1.jpg',
-        link2: 'img/_bottom/gordress/2/2.jpg',
-        manufacturer: 'gordress',
-        Made: 'VietNam',
-        sell: '7'
+        color: 'pink',
+        cost: '44',
+        link0: 'img/bottoms/indya/Pink Palazzo Pants with Asymmetric Attached Dupatta IPL00258Z/3.jpg',
+        link1: 'img/bottoms/indya/Pink Palazzo Pants with Asymmetric Attached Dupatta IPL00258Z/5.jpg',
+        link2: 'img/bottoms/indya/Pink Palazzo Pants with Asymmetric Attached Dupatta IPL00258Z/8.jpg',
+        manufacturer: 'indya',
+        Made: 'India',
+        sell: '3'
     },
 
     //
