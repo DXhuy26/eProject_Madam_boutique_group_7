@@ -1,5 +1,6 @@
 var ds = [
     //dress
+    //indya
     //0DIN01
     {
         id: '0DIN01',
@@ -27,6 +28,20 @@ var ds = [
         manufacturer: 'indya',
         Made: 'India',
         sell: '6'
+    },
+    //0DIN03
+    {
+        id: '0DIN03',
+        size: 'free size',
+        type: 'd',
+        color: 'orange',
+        cost: '69',
+        link0: 'img/dress/indya/Mustard Solid Maxi t005 69.3$/1.jpg',
+        link1: 'img/dress/indya/Mustard Solid Maxi t005 69.3$/3.jpg',
+        link2: 'img/dress/indya/Mustard Solid Maxi t005 69.3$/5.jpg',
+        manufacturer: 'indya',
+        Made: 'India',
+        sell: '9'
     },
 
     //ivymoda
@@ -58,6 +73,20 @@ var ds = [
         Made: 'VietNam',
         sell: '2'
     },
+    //0DIV03
+    {
+        id: '0DIV03',
+        size: 'S,M,L',
+        type: 'd',
+        color: 'red',
+        cost: '370',
+        link0: 'img/dress/ivymoda/t009 45.6$/1a.jpg',
+        link1: 'img/dress/ivymoda/t009 45.6$/1a.jpg',
+        link2: 'img/dress/ivymoda/t009 45.6$/1a.jpg',
+        manufacturer: 'ivymoda',
+        Made: 'VietNam',
+        sell: '9'
+    },
 
     //forever 21
     //0D2101
@@ -88,6 +117,20 @@ var ds = [
         Made: 'USA',
         sell: '5'
     },
+    //0D2103
+    {
+        id: '0D2103',
+        size: 'free size',
+        type: 'd',
+        color: 'back',
+        cost: '50',
+        link0: 'img/dress/forever21/t002 50.6$/1a.jpg',
+        link1: 'img/dress/forever21/t002 50.6$/2a.jpg',
+        link2: 'img/dress/forever21/t002 50.6$/3a.jpg',
+        manufacturer: 'forever 21',
+        Made: 'USA',
+        sell: '9'
+    },
 
     //k&k
     //0Dkk01
@@ -95,11 +138,11 @@ var ds = [
         id: '0Dkk01',
         size: 'S, M, L',
         type: 'd',
-        color: 'blue',
-        cost: '54',
-        link0: 'img/dress/k&k/Satin Cami Dress t011 54$/1.jpg',
-        link1: 'img/dress/k&k/Satin Cami Dress t011 54$/2.jpg',
-        link2: 'img/dress/k&k/Satin Cami Dress t011 54$/3.jpg',
+        color: 'black',
+        cost: '65',
+        link0: 'img/dress/k&k/High-Low Crew Neck Dress t010 65$/1.jpg',
+        link1: 'img/dress/k&k/High-Low Crew Neck Dress t010 65$/1.jpg',
+        link2: 'img/dress/k&k/High-Low Crew Neck Dress t010 65$/1.jpg',
         manufacturer: 'k&k',
         Made: 'VietNam',
         sell: '8'
@@ -114,46 +157,30 @@ var ds = [
         link0: 'img/dress/k&k/V-Neck Ribbed Bodycon Dress t012 37$/1.jpg',
         link1: 'img/dress/k&k/V-Neck Ribbed Bodycon Dress t012 37$/2.jpg',
         link2: 'img/dress/k&k/V-Neck Ribbed Bodycon Dress t012 37$/3.jpg',
-        manufacturer: 'solei',
+        manufacturer: 'k&k',
         Made: 'VietNam',
         sell: '3'
     },
-
     //
     {
-        id: '00d00r1',
+        id: '0Dkk03',
         size: 'free size',
         type: 'd',
-        color: 'back',
-        cost: '370',
-        link0: 'img/dress/rosier/1/0.jpg',
-        link1: 'img/dress/rosier/1/1.jpg',
-        link2: 'img/dress/rosier/1/2.jpg',
-        manufacturer: 'rosier',
+        color: 'blue',
+        cost: '54',
+        link0: 'img/dress/k&k/Satin Cami Dress t011 54$/1.jpg',
+        link1: 'img/dress/k&k/Satin Cami Dress t011 54$/2.jpg',
+        link2: 'img/dress/k&k/Satin Cami Dress t011 54$/3.jpg',
+        manufacturer: 'k&k',
         Made: 'VietNam',
         sell: '9'
     },
 
-    //
-    {
-        id: '00d00r2',
-        size: 'free size',
-        type: 'd',
-        color: 'back',
-        cost: '420',
-        link0: 'img/dress/rosier/2/0.jpg',
-        link1: 'img/dress/rosier/2/1.jpg',
-        link2: 'img/dress/rosier/2/2.jpg',
-        manufacturer: 'rosier',
-        Made: 'VietNam',
-        sell: '6'
-    },
-
     //tops
     //indya
-    //0TIN01
+    //0TIN04
     {
-        id: '0TIN01',
+        id: '0TIN04',
         size: 'S,M,L',
         type: 't',
         color: 'orange',
@@ -165,9 +192,9 @@ var ds = [
         Made: 'India',
         sell: '9'
     },
-    //0TIN02
+    //0TIN05
     {
-        id: '0TIN02',
+        id: '0TIN05',
         size: 'S,M,L',
         type: 't',
         color: 'yellow',
@@ -175,6 +202,20 @@ var ds = [
         link0: 'img/tops/indya/d005/1e.jpg',
         link1: 'img/tops/indya/d005/2e.jpg',
         link2: 'img/tops/indya/d005/4e.jpg',
+        manufacturer: 'indya',
+        Made: 'India',
+        sell: '6'
+    },
+    //0TIN06
+    {
+        id: '0TIN06',
+        size: 'S,M,L',
+        type: 't',
+        color: 'teal sky',
+        cost: '39',
+        link0: 'img/tops/indya/d006/3r.jpg',
+        link1: 'img/tops/indya/d006/2r.jpg',
+        link2: 'img/tops/indya/d006/4r.jpg',
         manufacturer: 'indya',
         Made: 'India',
         sell: '6'
@@ -200,14 +241,28 @@ var ds = [
         id: '0TF002',
         size: 'S,M,L',
         type: 't',
-        color: 'white',
+        color: 'blue sky',
         cost: '40',
-        link0: 'img/tops/forever21/d003/1b.jpg',
-        link1: 'img/tops/forever21/d003/2b.jpg',
-        link2: 'img/tops/forever21/d003/5b.jpg',
+        link0: 'img/tops/forever21/d002/5a.jpg',
+        link1: 'img/tops/forever21/d002/4a.jpg',
+        link2: 'img/tops/forever21/d002/3a.jpg',
         manufacturer: 'forever21',
         Made: 'USA',
         sell: '7'
+    },
+    //0TF003
+    {
+        id: '0TF003',
+        size: 'S,M,L',
+        type: 't',
+        color: 'white',
+        cost: '40',
+        link0: 'img/tops/forever21/d003/4b.jpg',
+        link1: 'img/tops/forever21/d003/3b.jpg',
+        link2: 'img/tops/forever21/d003/2b.jpg',
+        manufacturer: 'forever21',
+        Made: 'USA',
+        sell: '1'
     },
 
     //ivymoda
@@ -239,21 +294,21 @@ var ds = [
         Made: 'VietNam',
         sell: '8'
     },
-
-    //
+    //0TIV03
     {
-        id: 't0000s1',
+        id: '0TIV03',
         size: 'S,M,L',
         type: 't',
         color: 'white',
         cost: '280',
-        link0: 'img/_top/solei/1/0.jpg',
-        link1: 'img/_top/solei/1/1.jpg',
-        link2: 'img/_top/solei/1/2.jpg',
+        link0: 'img/tops/ivymoda/d007/4i.jpg',
+        link1: 'img/tops/ivymoda/d007/2i.jpg',
+        link2: 'img/tops/ivymoda/d007/1i.jpg',
         manufacturer: 'solei',
         Made: 'VietNam',
         sell: '9'
     },
+    //
     {
         id: 't0000s2',
         size: 'S,M,L',
@@ -298,32 +353,6 @@ var ds = [
 
     //bottoms
     //indya
-    {
-        id: '0BIN01',
-        size: 'S, M, L',
-        type: 'b',
-        color: 'green',
-        cost: '44',
-        link0: 'img/bottoms/indya/Emerald Green Palazzo Pants With Attached Dupatta IPL00234Z/3.jpg',
-        link1: 'img/bottoms/indya/Emerald Green Palazzo Pants With Attached Dupatta IPL00234Z/4.jpg',
-        link2: 'img/bottoms/indya/Emerald Green Palazzo Pants With Attached Dupatta IPL00234Z/8.jpg',
-        manufacturer: 'indya',
-        Made: 'India',
-        sell: '4'
-    },
-    {
-        id: '0BIN02',
-        size: 'S, M, L',
-        type: 'b',
-        color: 'pink',
-        cost: '44',
-        link0: 'img/bottoms/indya/Pink Palazzo Pants with Asymmetric Attached Dupatta IPL00258Z/3.jpg',
-        link1: 'img/bottoms/indya/Pink Palazzo Pants with Asymmetric Attached Dupatta IPL00258Z/5.jpg',
-        link2: 'img/bottoms/indya/Pink Palazzo Pants with Asymmetric Attached Dupatta IPL00258Z/8.jpg',
-        manufacturer: 'indya',
-        Made: 'India',
-        sell: '3'
-    },
 
     //
     {
