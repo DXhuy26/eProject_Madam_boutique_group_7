@@ -284,16 +284,16 @@ var ds = [
     //bottoms
     //
     {
-        id: '0b000g1',
+        id: '0BIN01',
         size: 'S, M, L',
         type: 'b',
-        color: 'yellow',
-        cost: '320',
-        link0: 'img/_bottom/gordress/1/0.jpg',
-        link1: 'img/_bottom/gordress/1/1.jpg',
-        link2: 'img/_bottom/gordress/1/2.jpg',
-        manufacturer: 'gordress',
-        Made: 'VietNam',
+        color: 'green',
+        cost: '44',
+        link0: 'img/bottoms/indya/Emerald Green Palazzo Pants With Attached Dupatta IPL00234Z/3.jpg',
+        link1: 'img/bottoms/indya/Emerald Green Palazzo Pants With Attached Dupatta IPL00234Z/4.jpg',
+        link2: 'img/bottoms/indya/Emerald Green Palazzo Pants With Attached Dupatta IPL00234Z/8.jpg',
+        manufacturer: 'indya',
+        Made: 'India',
         sell: '4'
     },
     {
