@@ -1,112 +1,119 @@
 var ds = [
     //dress
-    //
+    //0DIN01
     {
-        id: '00d00g1',
+        id: '0DIN01',
         size: 'S,M,L',
         type: 'd',
-        color: 'sky blue',
-        cost: '380',
-        link0: 'img/dress/gordress/1/0.jpg',
-        link1: 'img/dress/gordress/1/1.jpg',
-        link2: 'img/dress/gordress/1/2.jpg',
+        color: 'yellow',
+        cost: '90',
+        link0: 'img/dress/indya/Mustard Embroidered t004 90.6$/1.jpg',
+        link1: 'img/dress/indya/Mustard Embroidered t004 90.6$/4.jpg',
+        link2: 'img/dress/indya/Mustard Embroidered t004 90.6$/5.jpg',
         manufacturer: 'indya',
-        Made: 'VietNam',
+        Made: 'India',
         sell: '4'
     },
+    //0DIN02
     {
-        id: '00d00g2',
+        id: '0DIN02',
         size: 'S,M,L',
         type: 'd',
-        color: 'sky blue, red',
-        cost: '650',
-        link0: 'img/dress/gordress/2/0.jpg',
-        link1: 'img/dress/gordress/2/1.jpg',
-        link2: 'img/dress/gordress/2/2.jpg',
-        manufacturer: 'gordress',
-        Made: 'VietNam',
+        color: 'pink',
+        cost: '80',
+        link0: 'img/dress/indya/pink polka t006 80.2$/1.jpg',
+        link1: 'img/dress/indya/pink polka t006 80.2$/1.jpg',
+        link2: 'img/dress/indya/pink polka t006 80.2$/1.jpg',
+        manufacturer: 'indya',
+        Made: 'India',
         sell: '6'
     },
 
-    //
+    //ivymoda
+    //0DIV01
     {
-        id: '00d00p1',
+        id: '0DIV01',
         size: 'S,M,L',
         type: 'd',
-        color: 'sky blue, pink',
-        cost: '540',
-        link0: 'img/dress/polkaholics/1/0.jpg',
-        link1: 'img/dress/polkaholics/1/1.jpg',
-        link2: 'img/dress/polkaholics/1/2.jpg',
-        manufacturer: 'polkaholics',
+        color: 'orange',
+        cost: '36',
+        link0: 'img/dress/ivymoda/t008 36.5$/1.jpg',
+        link1: 'img/dress/ivymoda/t008 36.5$/2.jpg',
+        link2: 'img/dress/ivymoda/t008 36.5$/4.jpg',
+        manufacturer: 'ivymoda',
         Made: 'VietNam',
         sell: '5'
     },
+    //0DIV02
     {
-        id: '00d00p2',
+        id: '0DIV02',
         size: 'S,M,L',
         type: 'd',
-        color: 'blue',
-        cost: '540',
-        link0: 'img/dress/polkaholics/2/0.jpg',
-        link1: 'img/dress/polkaholics/2/1.jpg',
-        link2: 'img/dress/polkaholics/2/2.jpg',
-        manufacturer: 'polkaholics',
+        color: 'cream green',
+        cost: '50',
+        link0: 'img/dress/ivymoda/Leaf Print Maxi Dress CREAM  GREEN t007 50.6$/4b.jpg',
+        link1: 'img/dress/ivymoda/Leaf Print Maxi Dress CREAM  GREEN t007 50.6$/1b.jpg',
+        link2: 'img/dress/ivymoda/Leaf Print Maxi Dress CREAM  GREEN t007 50.6$/2b.jpg',
+        manufacturer: 'ivymoda',
         Made: 'VietNam',
         sell: '2'
     },
 
-    //
+    //forever 21
+    //0D2101
     {
-        id: '00d00h1',
+        id: '0D2101',
         size: 'Free Size',
         type: 'd',
-        color: 'gray',
-        cost: '410',
-        link0: 'img/dress/hoivu/1/0.jpg',
-        link1: 'img/dress/hoivu/1/1.jpg',
-        link2: 'img/dress/hoivu/1/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
+        color: 'red',
+        cost: '47',
+        link0: 'img/dress/forever21/t003 47.6$/4b.jpg',
+        link1: 'img/dress/forever21/t003 47.6$/3b.jpg',
+        link2: 'img/dress/forever21/t003 47.6$/1b.jpg',
+        manufacturer: 'forever 21',
+        Made: 'USA',
         sell: '1'
     },
+    //0D2102
     {
-        id: '00d00h2',
+        id: '0D2102',
         size: 'Free Size',
         type: 'd',
-        color: 'white',
-        cost: '360',
-        link0: 'img/dress/hoivu/2/0.jpg',
-        link1: 'img/dress/hoivu/2/1.jpg',
-        link2: 'img/dress/hoivu/2/2.jpg',
+        color: 'orange',
+        cost: '72',
+        link0: 'img/dress/forever21/t001 72.5$/1.jpg',
+        link1: 'img/dress/forever21/t001 72.5$/2.jpg',
+        link2: 'img/dress/forever21/t001 72.5$/3.jpg',
         manufacturer: 'hoivu',
-        Made: 'VietNam',
+        Made: 'USA',
         sell: '5'
     },
 
-    //
+    //k&k
+    //0Dkk01
     {
-        id: '00d00s1',
+        id: '0Dkk01',
         size: 'S, M, L',
         type: 'd',
-        color: 'ground orange',
-        cost: '360',
-        link0: 'img/dress/solei/1/0.jpg',
-        link1: 'img/dress/solei/1/1.jpg',
-        link2: 'img/dress/solei/1/2.jpg',
-        manufacturer: 'solei',
+        color: 'blue',
+        cost: '54',
+        link0: 'img/dress/k&k/Satin Cami Dress t011 54$/1.jpg',
+        link1: 'img/dress/k&k/Satin Cami Dress t011 54$/2.jpg',
+        link2: 'img/dress/k&k/Satin Cami Dress t011 54$/3.jpg',
+        manufacturer: 'k&k',
         Made: 'VietNam',
         sell: '8'
     },
+    //0Dkk02
     {
-        id: '00d00s2',
+        id: '0Dkk02',
         size: 'S, M, L',
         type: 'd',
-        color: 'green, pink',
-        cost: '550',
-        link0: 'img/dress/solei/2/0.jpg',
-        link1: 'img/dress/solei/2/1.jpg',
-        link2: 'img/dress/solei/2/2.jpg',
+        color: 'brow',
+        cost: '37',
+        link0: 'img/dress/k&k/V-Neck Ribbed Bodycon Dress t012 37$/1.jpg',
+        link1: 'img/dress/k&k/V-Neck Ribbed Bodycon Dress t012 37$/2.jpg',
+        link2: 'img/dress/k&k/V-Neck Ribbed Bodycon Dress t012 37$/3.jpg',
         manufacturer: 'solei',
         Made: 'VietNam',
         sell: '3'
@@ -127,6 +134,7 @@ var ds = [
         sell: '9'
     },
 
+    //
     {
         id: '00d00r2',
         size: 'free size',
@@ -883,8 +891,8 @@ var ds = [
         sell: '42'
     },
 
-     //
-     {
+    //
+    {
         id: '00000h40b',
         size: '&nbsp',
         type: '_b',

@@ -133,6 +133,14 @@ $(function () {
             })
         })
 
+        $('#kk').click(function () {
+            $("#information, #product").hide(function () {
+                $(".image").hide();
+                $(".kk").show();
+                $("#showshop").fadeIn(1000);
+            })
+        })
+
        
 
         $('#all').click(function () {
@@ -143,7 +151,23 @@ $(function () {
         })
 
 
-        $("#Store_bottom").click(function () {
+        $("#d").click(function () {
+            $("#information, #product").hide(function () {
+                $(".image").hide();
+                $(".d").show();
+                $("#showshop").fadeIn(1000);
+            })
+        })
+
+        $("#t").click(function () {
+            $("#information, #product").hide(function () {
+                $(".image").hide();
+                $(".t").show();
+                $("#showshop").fadeIn(1000);
+            })
+        })
+
+        $("#b").click(function () {
             $("#information, #product").hide(function () {
                 $(".image").hide();
                 $(".b").show();
@@ -151,6 +175,29 @@ $(function () {
             })
         })
 
+        $("#j").click(function () {
+            $("#information, #product").hide(function () {
+                $(".image").hide();
+                $(".j").show();
+                $("#showshop").fadeIn(1000);
+            })
+        })
+
+        $("#jc").click(function () {
+            $("#information, #product").hide(function () {
+                $(".image").hide();
+                $(".jc").show();
+                $("#showshop").fadeIn(1000);
+            })
+        })
+
+        $("#s").click(function () {
+            $("#information, #product").hide(function () {
+                $(".image").hide();
+                $(".s").show();
+                $("#showshop").fadeIn(1000);
+            })
+        })
 
         /* compare */
         $("#compare").click(function () {
