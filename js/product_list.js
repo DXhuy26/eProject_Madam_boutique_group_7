@@ -324,7 +324,6 @@ var ds = [
         Made: 'VietNam',
         sell: '1'
     },
-
     //
     {
         id: 't0000r1',
@@ -355,106 +354,109 @@ var ds = [
     },
 
     //bottoms
-    //indya
-
-    //
+    //forever21
+    //b001
     {
-        id: '0b000p1',
+        id: 'b001',
         size: 'S, M, L',
         type: 'b',
-        color: 'black',
-        cost: '480',
-        link0: 'img/_bottom/polkaholics/1/0.jpg',
-        link1: 'img/_bottom/polkaholics/1/1.jpg',
-        link2: 'img/_bottom/polkaholics/1/2.jpg',
-        manufacturer: 'polkaholics',
-        Made: 'VietNam',
+        color: 'orange',
+        cost: '50',
+        link0: 'img/bottoms/forever21/b001 $50/1.jpg',
+        link1: 'img/bottoms/forever21/b001 $50/4.jpg',
+        link2: 'img/bottoms/forever21/b001 $50/5.jpg',
+        manufacturer: 'forever 21',
+        Made: 'USA',
         sell: '4'
     },
+    //b002
     {
-        id: '0b000p2',
-        size: 'S, M, L',
-        type: 'b',
-        color: 'black, red',
-        cost: '420',
-        link0: 'img/_bottom/polkaholics/2/0.jpg',
-        link1: 'img/_bottom/polkaholics/2/1.jpg',
-        link2: 'img/_bottom/polkaholics/2/2.jpg',
-        manufacturer: 'polkaholics',
-        Made: 'VietNam',
-        sell: '9'
-    },
-
-    //
-    {
-        id: '0b000h1',
-        size: 'S, M, L',
-        type: 'b',
-        color: 'black',
-        cost: '420',
-        link0: 'img/_bottom/hoivu/1/0.jpg',
-        link1: 'img/_bottom/hoivu/1/1.jpg',
-        link2: 'img/_bottom/hoivu/1/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
-        sell: '9'
-    },
-    {
-        id: '0b000h2',
-        size: 'S, M, L',
-        type: 'b',
-        color: 'black',
-        cost: '350',
-        link0: 'img/_bottom/hoivu/2/0.jpg',
-        link1: 'img/_bottom/hoivu/2/1.jpg',
-        link2: 'img/_bottom/hoivu/2/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
-        sell: '3'
-    },
-
-    //
-    {
-        id: '0b000s1',
-        size: 'S, M, L',
-        type: 'b',
-        color: 'black',
-        cost: '520',
-        link0: 'img/_bottom/solei/1/0.jpg',
-        link1: 'img/_bottom/solei/1/1.jpg',
-        link2: 'img/_bottom/solei/1/2.jpg',
-        manufacturer: 'solei',
-        Made: 'VietNam',
-        sell: '4'
-    },
-    {
-        id: '0b000s2',
+        id: 'b002',
         size: 'S, M, L',
         type: 'b',
         color: 'gray',
-        cost: '400',
-        link0: 'img/_bottom/solei/2/0.jpg',
-        link1: 'img/_bottom/solei/2/1.jpg',
-        link2: 'img/_bottom/solei/2/2.jpg',
-        manufacturer: 'solei',
-        Made: 'VietNam',
+        cost: '30',
+        link0: 'img/bottoms/forever21/b002 $30.2/1.jpg',
+        link1: 'img/bottoms/forever21/b002 $30.2/2.jpg',
+        link2: 'img/bottoms/forever21/b002 $30.2/3.jpg',
+        manufacturer: 'forever 21',
+        Made: 'USA',
+        sell: '9'
+    },
+    //b003
+    {
+        id: 'b003',
+        size: 'S, M, L',
+        type: 'b',
+        color: 'black',
+        cost: '24',
+        link0: 'img/bottoms/forever21/b003 $24.8/1.jpg',
+        link1: 'img/bottoms/forever21/b003 $24.8/2.jpg',
+        link2: 'img/bottoms/forever21/b003 $24.8/3.jpg',
+        manufacturer: 'forever 21',
+        Made: 'USA',
+        sell: '9'
+    },
+
+    //indya
+    //b004
+    {
+        id: 'b004',
+        size: 'S, M, L',
+        type: 'b',
+        color: 'yellow',
+        cost: '36',
+        link0: 'img/bottoms/indya/b004 $36/1.jpg',
+        link1: 'img/bottoms/indya/b004 $36/2.jpg',
+        link2: 'img/bottoms/indya/b004 $36/3.jpg',
+        manufacturer: 'indya',
+        Made: 'India',
+        sell: '3'
+    },
+    //b005
+    {
+        id: 'b005',
+        size: 'S, M, L',
+        type: 'b',
+        color: 'dark blue',
+        cost: '26',
+        link0: 'img/bottoms/indya/b005 $26.8/1.jpg',
+        link1: 'img/bottoms/indya/b005 $26.8/2.jpg',
+        link2: 'img/bottoms/indya/b005 $26.8/5.jpg',
+        manufacturer: 'indya',
+        Made: 'India',
+        sell: '4'
+    },
+    //b006
+    {
+        id: 'b006',
+        size: 'S, M, L',
+        type: 'b',
+        color: 'green',
+        cost: '40',
+        link0: 'img/bottoms/indya/b006 $40.3/1.jpg',
+        link1: 'img/bottoms/indya/b006 $40.3/4.jpg',
+        link2: 'img/bottoms/indya/b006 $40.3/5.jpg',
+        manufacturer: 'indya',
+        Made: 'India',
         sell: '7'
     },
 
-    //
+    //d007
     {
-        id: '0b000r1',
+        id: 'd007',
         size: 'S, M, L',
         type: 'b',
-        color: 'blue',
-        cost: '375',
-        link0: 'img/_bottom/rosier/1/0.jpg',
-        link1: 'img/_bottom/rosier/1/1.jpg',
-        link2: 'img/_bottom/rosier/1/2.jpg',
-        manufacturer: 'rosier',
+        color: 'gray',
+        cost: '30',
+        link0: 'img/bottoms/ivymoda/b007 $30/1.jpg',
+        link1: 'img/bottoms/ivymoda/b007 $30/2.jpg',
+        link2: 'img/bottoms/ivymoda/b007 $30/3.jpg',
+        manufacturer: 'ivymoda',
         Made: 'VietNam',
         sell: '5'
     },
+    //
     {
         id: '0b000r2',
         size: 'S, M, L',
