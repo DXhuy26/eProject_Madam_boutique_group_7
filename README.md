@@ -1,6 +1,6 @@
 1910.M1-eProject-Group_7 Batch no.: T1.1910.M1
 
-Project title: Madam's Boutique - the home store website
+Project title: Madam's Boutique 
 
 ========> Group 7 <=========
 
@@ -18,6 +18,6 @@ github report link: https://github.com/
 
 ============================
 
-eProject published at https://huydrk.github.io/eProject_Madam_boutique_group_7/
+eProject published at https://huydrk.github.io/eProject_Madam_boutique_group_7/Home.html
 
 ============================
