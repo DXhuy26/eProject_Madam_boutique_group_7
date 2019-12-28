@@ -1,9 +1,9 @@
 var ds = [
     //dress
     //indya
-    //0DIN01
+    //t004
     {
-        id: '0DIN01',
+        id: 't004',
         size: 'S,M,L',
         type: 'd',
         color: 'yellow',
@@ -15,9 +15,9 @@ var ds = [
         Made: 'India',
         sell: '4'
     },
-    //0DIN02
+    //t006
     {
-        id: '0DIN02',
+        id: 't006',
         size: 'S,M,L',
         type: 'd',
         color: 'pink',
@@ -29,9 +29,9 @@ var ds = [
         Made: 'India',
         sell: '6'
     },
-    //0DIN03
+    //t005
     {
-        id: '0DIN03',
+        id: 't005',
         size: 'free size',
         type: 'd',
         color: 'orange',
@@ -45,9 +45,9 @@ var ds = [
     },
 
     //ivymoda
-    //0DIV01
+    //t008
     {
-        id: '0DIV01',
+        id: 't008',
         size: 'S,M,L',
         type: 'd',
         color: 'orange',
@@ -59,9 +59,9 @@ var ds = [
         Made: 'VietNam',
         sell: '5'
     },
-    //0DIV02
+    //t007
     {
-        id: '0DIV02',
+        id: 't007',
         size: 'S,M,L',
         type: 'd',
         color: 'cream green',
@@ -73,9 +73,9 @@ var ds = [
         Made: 'VietNam',
         sell: '2'
     },
-    //0DIV03
+    //t009
     {
-        id: '0DIV03',
+        id: 't009',
         size: 'S,M,L',
         type: 'd',
         color: 'red',
@@ -89,9 +89,9 @@ var ds = [
     },
 
     //forever 21
-    //0D2101
+    //t003
     {
-        id: '0D2101',
+        id: 't003',
         size: 'Free Size',
         type: 'd',
         color: 'red',
@@ -103,9 +103,9 @@ var ds = [
         Made: 'USA',
         sell: '1'
     },
-    //0D2102
+    //t001
     {
-        id: '0D2102',
+        id: 't001',
         size: 'Free Size',
         type: 'd',
         color: 'orange',
@@ -117,9 +117,9 @@ var ds = [
         Made: 'USA',
         sell: '5'
     },
-    //0D2103
+    //t002
     {
-        id: '0D2103',
+        id: 't002',
         size: 'free size',
         type: 'd',
         color: 'back',
@@ -133,9 +133,9 @@ var ds = [
     },
 
     //k&k
-    //0Dkk01
+    //t010
     {
-        id: '0Dkk01',
+        id: 't010',
         size: 'S, M, L',
         type: 'd',
         color: 'black',
@@ -147,9 +147,9 @@ var ds = [
         Made: 'VietNam',
         sell: '8'
     },
-    //0Dkk02
+    //t012
     {
-        id: '0Dkk02',
+        id: 't012',
         size: 'S, M, L',
         type: 'd',
         color: 'brow',
@@ -161,9 +161,9 @@ var ds = [
         Made: 'VietNam',
         sell: '3'
     },
-    //
+    //t011
     {
-        id: '0Dkk03',
+        id: 't011',
         size: 'free size',
         type: 'd',
         color: 'blue',
@@ -178,9 +178,9 @@ var ds = [
 
     //tops
     //indya
-    //0TIN04
+    //d004
     {
-        id: '0TIN04',
+        id: 'd004',
         size: 'S,M,L',
         type: 't',
         color: 'orange',
@@ -192,9 +192,9 @@ var ds = [
         Made: 'India',
         sell: '9'
     },
-    //0TIN05
+    //d005
     {
-        id: '0TIN05',
+        id: 'd005',
         size: 'S,M,L',
         type: 't',
         color: 'yellow',
@@ -206,9 +206,9 @@ var ds = [
         Made: 'India',
         sell: '6'
     },
-    //0TIN06
+    //d006
     {
-        id: '0TIN06',
+        id: 'd0006',
         size: 'S,M,L',
         type: 't',
         color: 'teal sky',
@@ -222,9 +222,9 @@ var ds = [
     },
 
     //forever21
-    //0TF001
+    //d001
     {
-        id: '0TF001',
+        id: 'd001',
         size: 'S,M,L',
         type: 't',
         color: 'black',
@@ -236,9 +236,9 @@ var ds = [
         Made: 'USA',
         sell: '8'
     },
-    //0TF002
+    //d002
     {
-        id: '0TF002',
+        id: 'd002',
         size: 'S,M,L',
         type: 't',
         color: 'blue sky',
@@ -250,9 +250,9 @@ var ds = [
         Made: 'USA',
         sell: '7'
     },
-    //0TF003
+    //d003
     {
-        id: '0TF003',
+        id: 'd003',
         size: 'S,M,L',
         type: 't',
         color: 'white',
@@ -266,9 +266,9 @@ var ds = [
     },
 
     //ivymoda
-    //0TIV01
+    //d008
     {
-        id: '0TIV01',
+        id: 'd008',
         size: 'S,M,L',
         type: 't',
         color: 'grey',
@@ -280,9 +280,9 @@ var ds = [
         Made: 'VietNam',
         sell: '3'
     },
-    //0TIV02
+    //d009
     {
-        id: '0TIV02',
+        id: 'd009',
         size: 'free size',
         type: 't',
         color: 'blue',
@@ -294,9 +294,9 @@ var ds = [
         Made: 'VietNam',
         sell: '8'
     },
-    //0TIV03
+    //d007
     {
-        id: '0TIV03',
+        id: 'd007',
         size: 'S,M,L',
         type: 't',
         color: 'white',
@@ -308,6 +308,8 @@ var ds = [
         Made: 'VietNam',
         sell: '9'
     },
+
+    //k&k
     //
     {
         id: 't0000s2',
@@ -337,6 +339,7 @@ var ds = [
         Made: 'VietNam',
         sell: '7'
     },
+    //
     {
         id: 't0000r2',
         size: 'free size',
