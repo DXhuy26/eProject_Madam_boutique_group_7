@@ -14,7 +14,7 @@ Project title: Madam's Boutique
 
 ============================
 
-github report link: https://github.com/
+github report link: https://github.com/huydrk/eProject_Madam_boutique_group_7/blob/master/document/group7.pdf
 
 ============================
 
