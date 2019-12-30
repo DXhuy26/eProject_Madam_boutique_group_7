@@ -1,0 +1,46 @@
+.social-connect a {
+    display: inline-block;
+    border: 1px solid #E3E3E3;
+    font-size: 14px;
+    color: #919191;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 4px;
+}
+
+.social-connect a .fa {
+    margin: 0;
+}
+
+.social-connect a:hover {
+    background-color: #4EBEE9;
+    color: #fff;
+}
+
+.carousel-line {
+    border: 1px solid #ddd;
+    height: 320px;
+    position: absolute;
+    bottom: -90px;
+    width: 110%;
+    left: -5.5%;
+}
+
+.carousel-line>.controls {
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    margin-left: -50px;
+    background: #fff;
+    padding: 0px 20px;
+    color: #000;
+}
+
+.carousel-line>.controls>a {
+    color: #868686;
+    font-size: 24px;
+    font-weight: 300;
+}
+

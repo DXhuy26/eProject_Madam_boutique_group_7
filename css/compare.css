@@ -1,0 +1,68 @@
+/* compare table */
+.border{
+  border-bottom: 1px solid rgba(0, 0, 0,0.2);
+  background-color: #fff;
+  text-align: center;
+}
+
+.type{
+  font-weight: bold;
+}
+
+.rowImage{
+  height: 15em;
+  padding-bottom: 10px;
+  
+}
+
+#information p{
+ margin: 0;
+ line-height: 2em;
+}
+#product p{
+  margin: 0;
+  line-height: 2em;
+}
+
+/* image */
+.image{
+  position: relative;
+}
+
+.mark{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+/* back to Top */
+#top {
+  font-size: 2em;
+  position: fixed;
+  right: 40px;
+  bottom: 10px;
+  display: none;
+  }
+
+/* scale checkbox */
+input[type=checkbox] {
+  /* sized Checkboxes */
+  -ms-transform: scale(1.3);
+  /* IE */
+  -moz-transform: scale(1.3);
+  /* FF */
+  -webkit-transform: scale(1.3);
+  /* Safari and Chrome */
+  -o-transform: scale(1.3);
+  /* Opera */
+  padding: 10px;
+  
+}
+
+/* type */
+.checkbox{
+  display: inline-block;
+  margin-right: 10px;
+  
+}
+
