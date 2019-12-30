@@ -570,7 +570,7 @@ var ds = [
         link1: 'img/jeans/Forever 21/Push-Up Ripped Skinny Ankle Jeans $28.00/j3.jpg',
         link2: 'img/jeans/Forever 21/Push-Up Ripped Skinny Ankle Jeans $28.00/j1.jpg',
         manufacturer: 'forever21',
-        Made: 'USE',
+        Made: 'USA',
         sell: '9'
     },
 
@@ -884,179 +884,179 @@ var ds = [
     },
 
     //sets
-    //
-    //
+    //Forever 21
+    //s001
     {
-        id: '00000h10b',
-        size: '&nbsp',
-        type: '_b',
-        color: 'mix',
-        cost: '150',
-        link0: 'img/_bag/hoivu/1/0.jpg',
-        link1: 'img/_bag/hoivu/1/1.jpg',
-        link2: 'img/_bag/hoivu/1/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
+        id: 's001',
+        size: 'S, M, L',
+        type: 's',
+        color: 'black',
+        cost: '31',
+        link0: 'img/Set/Forever 21/Pinstriped Cropped Blazer $31.00/set4.jpg',
+        link1: 'img/Set/Forever 21/Pinstriped Cropped Blazer $31.00/set2.jpg',
+        link2: 'img/Set/Forever 21/Pinstriped Cropped Blazer $31.00/set1.jpg',
+        manufacturer: 'forever21',
+        Made: 'USA',
         sell: '31'
     },
-    //
+    //s002
     {
-        id: '00000h20b',
-        size: '&nbsp',
-        type: '_b',
-        color: 'mix',
-        cost: '250',
-        link0: 'img/_bag/hoivu/2/0.jpg',
-        link1: 'img/_bag/hoivu/2/1.jpg',
-        link2: 'img/_bag/hoivu/2/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
+        id: 's002',
+        size: 'S, M, L',
+        type: 's',
+        color: 'gray',
+        cost: '58',
+        link0: 'img/Set/Forever 21/Plaid Blazer & Belted Pants $58.00/set4.jpg',
+        link1: 'img/Set/Forever 21/Plaid Blazer & Belted Pants $58.00/set2.jpg',
+        link2: 'img/Set/Forever 21/Plaid Blazer & Belted Pants $58.00/set1.jpg',
+        manufacturer: 'forever21',
+        Made: 'USA',
         sell: '23'
     },
-    //
+    //s003
     {
-        id: '00000h30b',
-        size: '&nbsp',
-        type: '_b',
-        color: 'mix',
-        cost: '170',
-        link0: 'img/_bag/hoivu/3/0.jpg',
-        link1: 'img/_bag/hoivu/3/1.jpg',
-        link2: 'img/_bag/hoivu/3/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
+        id: 's003',
+        size: 'S, M, L',
+        type: 's',
+        color: 'black',
+        cost: '42',
+        link0: 'img/Set/Forever 21/Windbreaker Crop Top & Pants Set $42.00/set4.jpg',
+        link1: 'img/Set/Forever 21/Windbreaker Crop Top & Pants Set $42.00/set2.jpg',
+        link2: 'img/Set/Forever 21/Windbreaker Crop Top & Pants Set $42.00/set1.jpg',
+        manufacturer: 'forever21',
+        Made: 'USA',
         sell: '17'
     },
 
-    //
-    //
+    //Indyan
+    //s004
     {
-        id: '00000h40b',
-        size: '&nbsp',
-        type: '_b',
-        color: 'mix',
-        cost: '195',
-        link0: 'img/_bag/hoivu/4/0.jpg',
-        link1: 'img/_bag/hoivu/4/1.jpg',
-        link2: 'img/_bag/hoivu/4/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
+        id: 's004',
+        size: 'S, M, L',
+        type: 's',
+        color: 'red',
+        cost: '45',
+        link0: 'img/Set/Indyan/3.Maroon Foil Tiered A-Line Tunic $45.00/set1.jpg',
+        link1: 'img/Set/Indyan/3.Maroon Foil Tiered A-Line Tunic $45.00/set2.jpg',
+        link2: 'img/Set/Indyan/3.Maroon Foil Tiered A-Line Tunic $45.00/set3.jpg',
+        manufacturer: 'indya',
+        Made: 'India',
         sell: '42'
     },
-    //
+    //s005
     {
-        id: '00000h40b',
-        size: '&nbsp',
-        type: '_b',
+        id: 's005',
+        size: 'S, M, L',
+        type: 's',
         color: 'mix',
-        cost: '195',
-        link0: 'img/_bag/hoivu/4/0.jpg',
-        link1: 'img/_bag/hoivu/4/1.jpg',
-        link2: 'img/_bag/hoivu/4/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
-        sell: '42'
+        cost: '30',
+        link0: 'img/Set/Indyan/5.Beige Botanical Floral Crop Top $30.00/set3.jpg',
+        link1: 'img/Set/Indyan/5.Beige Botanical Floral Crop Top $30.00/set2.jpg',
+        link2: 'img/Set/Indyan/5.Beige Botanical Floral Crop Top $30.00/set1.jpg',
+        manufacturer: 'indya',
+        Made: 'India',
+        sell: '49'
     },
-    //
+    //s006
     {
-        id: '00000h40b',
-        size: '&nbsp',
-        type: '_b',
-        color: 'mix',
-        cost: '195',
-        link0: 'img/_bag/hoivu/4/0.jpg',
-        link1: 'img/_bag/hoivu/4/1.jpg',
-        link2: 'img/_bag/hoivu/4/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
-        sell: '42'
-    },
-
-    //
-    //
-    {
-        id: '00000h40b',
-        size: '&nbsp',
-        type: '_b',
-        color: 'mix',
-        cost: '195',
-        link0: 'img/_bag/hoivu/4/0.jpg',
-        link1: 'img/_bag/hoivu/4/1.jpg',
-        link2: 'img/_bag/hoivu/4/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
-        sell: '42'
-    },
-    //
-    {
-        id: '00000h40b',
-        size: '&nbsp',
-        type: '_b',
-        color: 'mix',
-        cost: '195',
-        link0: 'img/_bag/hoivu/4/0.jpg',
-        link1: 'img/_bag/hoivu/4/1.jpg',
-        link2: 'img/_bag/hoivu/4/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
-        sell: '42'
-    },
-    //
-    {
-        id: '00000h40b',
-        size: '&nbsp',
-        type: '_b',
-        color: 'mix',
-        cost: '195',
-        link0: 'img/_bag/hoivu/4/0.jpg',
-        link1: 'img/_bag/hoivu/4/1.jpg',
-        link2: 'img/_bag/hoivu/4/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
-        sell: '42'
+        id: 's006',
+        size: 'S, M, L',
+        type: 's',
+        color: 'red',
+        cost: '35',
+        link0: 'img/Set/Indyan/6.Maroon Strappy Dhoti Jumpsuit $35.00/set2.jpg',
+        link1: 'img/Set/Indyan/6.Maroon Strappy Dhoti Jumpsuit $35.00/set1.jpg',
+        link2: 'img/Set/Indyan/6.Maroon Strappy Dhoti Jumpsuit $35.00/set4.jpg',
+        manufacturer: 'indya',
+        Made: 'India',
+        sell: '39'
     },
 
-    //
-    //
+    //Ivymoda
+    //s007
     {
-        id: '00000h40b',
-        size: '&nbsp',
-        type: '_b',
-        color: 'mix',
-        cost: '195',
-        link0: 'img/_bag/hoivu/4/0.jpg',
-        link1: 'img/_bag/hoivu/4/1.jpg',
-        link2: 'img/_bag/hoivu/4/2.jpg',
-        manufacturer: 'hoivu',
+        id: 's007',
+        size: 'S, M, L',
+        type: 's',
+        color: 'red',
+        cost: '60',
+        link0: 'img/Set/Ivymoda/Blazer & Pants Set $60.00/set5.jpg',
+        link1: 'img/Set/Ivymoda/Blazer & Pants Set $60.00/set3.jpg',
+        link2: 'img/Set/Ivymoda/Blazer & Pants Set $60.00/set1.jpg',
+        manufacturer: 'ivymoda',
         Made: 'VietNam',
-        sell: '42'
+        sell: '24'
     },
-    //
+    //s008
     {
-        id: '00000h40b',
-        size: '&nbsp',
-        type: '_b',
+        id: 's008',
+        size: 'S, M, L',
+        type: 's',
         color: 'mix',
-        cost: '195',
-        link0: 'img/_bag/hoivu/4/0.jpg',
-        link1: 'img/_bag/hoivu/4/1.jpg',
-        link2: 'img/_bag/hoivu/4/2.jpg',
-        manufacturer: 'hoivu',
+        cost: '47',
+        link0: 'img/Set/Ivymoda/Ribbed Crop Top & Belted Pants Set $47.00/set1.jpg',
+        link1: 'img/Set/Ivymoda/Ribbed Crop Top & Belted Pants Set $47.00/set2.jpg',
+        link2: 'img/Set/Ivymoda/Ribbed Crop Top & Belted Pants Set $47.00/set3.jpg',
+        manufacturer: 'ivymoda',
         Made: 'VietNam',
-        sell: '42'
+        sell: '52'
     },
-    //
+    //s009
     {
-        id: '00000h40b',
-        size: '&nbsp',
-        type: '_b',
-        color: 'mix',
-        cost: '195',
-        link0: 'img/_bag/hoivu/4/0.jpg',
-        link1: 'img/_bag/hoivu/4/1.jpg',
-        link2: 'img/_bag/hoivu/4/2.jpg',
-        manufacturer: 'hoivu',
+        id: 's009',
+        size: 'S, M, L',
+        type: 's',
+        color: 'red',
+        cost: '48',
+        link0: 'img/Set/Ivymoda/Ruffled Crop Top & Pants Set $48.00/set4.jpg',
+        link1: 'img/Set/Ivymoda/Ruffled Crop Top & Pants Set $48.00/set2.jpg',
+        link2: 'img/Set/Ivymoda/Ruffled Crop Top & Pants Set $48.00/set1.jpg',
+        manufacturer: 'ivymoda',
         Made: 'VietNam',
-        sell: '42'
+        sell: '22'
+    },
+
+    //K&K
+    //s010
+    {
+        id: 's010',
+        size: 'S, M, L',
+        type: 's',
+        color: 'white brown',
+        cost: '36',
+        link0: 'img/Set/K&K/Crop Top & Biker Short Set $36.00/set4.jpg',
+        link1: 'img/Set/K&K/Crop Top & Biker Short Set $36.00/set2.jpg',
+        link2: 'img/Set/K&K/Crop Top & Biker Short Set $36.00/set1.jpg',
+        manufacturer: 'kk',
+        Made: 'VietNam',
+        sell: '32'
+    },
+    //s011
+    {
+        id: 's011',
+        size: 'S, M, L',
+        type: 's',
+        color: 'black',
+        cost: '28',
+        link0: 'img/Set/K&K/Fleece Sweatshirt & Shorts Set $28.00/set4.jpg',
+        link1: 'img/Set/K&K/Fleece Sweatshirt & Shorts Set $28.00/set5.jpg',
+        link2: 'img/Set/K&K/Fleece Sweatshirt & Shorts Set $28.00/set1.jpg',
+        manufacturer: 'kk',
+        Made: 'VietNam',
+        sell: '12'
+    },
+    //s012
+    {
+        id: 's012',
+        size: 'S, M, L',
+        type: 's',
+        color: 'black',
+        cost: '39',
+        link0: 'img/Set/K&K/Ribbed Crop Top & Midi Skirt Set $39.00/set1.jpg',
+        link1: 'img/Set/K&K/Ribbed Crop Top & Midi Skirt Set $39.00/set3.jpg',
+        link2: 'img/Set/K&K/Ribbed Crop Top & Midi Skirt Set $39.00/set2.jpg',
+        manufacturer: 'kk',
+        Made: 'VietNam',
+        sell: '2'
     },
 ];
