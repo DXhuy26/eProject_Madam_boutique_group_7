@@ -90,7 +90,7 @@
   
   .ep_active,
   .ep_dot:hover {
-    border:solid 1px;
+    border:#bbb solid 1px;
   }
   
   /* Fading animation */
