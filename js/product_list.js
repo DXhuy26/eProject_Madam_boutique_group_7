@@ -491,7 +491,7 @@ var ds = [
     {
         id: 'd010',
         size: 'S, M, L',
-        type: 's',
+        type: 'b',
         color: 'camo',
         cost: '10.6',
         link0: 'img/bottoms/k&k/d010 $10.6/1.jpg',
@@ -505,7 +505,7 @@ var ds = [
     {
         id: 'd011',
         size: 'S, M, L',
-        type: 's',
+        type: 'b',
         color: 'white',
         cost: '20.7',
         link0: 'img/bottoms/k&k/d011 $20.7/5.jpg',
@@ -519,7 +519,7 @@ var ds = [
     {
         id: 'd012',
         size: 'S, M, L',
-        type: 's',
+        type: 'b',
         color: 'blue fog',
         cost: '31.4',
         link0: 'img/bottoms/k&k/d012 $31/4.jpg',
@@ -531,217 +531,228 @@ var ds = [
     },
 
     //jeans
-    //
+    //j001
     {
-        id: '000s0g1',
+        id: 'j001',
         size: 'S, M, L',
-        type: 's',
+        type: 'j',
         color: 'blue',
-        cost: '280',
-        link0: 'img/bottoms/Forever 21/Faded Skinny Overalls $31.00/j1.jpg',
-        link1: 'img/_skirt/gordress/1/1.jpg',
-        link2: 'img/_skirt/gordress/1/2.jpg',
-        manufacturer: 'Forever 21',
-        Made: 'VietNam',
+        cost: '31',
+        link0: 'img/jeans/Forever 21/Faded Skinny Overalls $31.00/j1.jpg',
+        link1: 'img/jeans/Forever 21/Faded Skinny Overalls $31.00/j2.jpg',
+        link2: 'img/jeans/Forever 21/Faded Skinny Overalls $31.00/j3.jpg',
+        manufacturer: 'forever 21',
+        Made: 'USA',
         sell: '5'
     },
+    //j002
     {
-        id: '000s0g2',
+        id: 'j002',
         size: 'S, M, L',
-        type: 's',
-        color: 'white',
-        cost: '320',
-        link0: 'img/_skirt/gordress/2/0.jpg',
-        link1: 'img/_skirt/gordress/2/1.jpg',
-        link2: 'img/_skirt/gordress/2/2.jpg',
-        manufacturer: 'gordress',
-        Made: 'VietNam',
-        sell: '5'
-    },
-
-    //
-    {
-        id: '000s0p1',
-        size: 'S, M, L',
-        type: 's',
+        type: 'j',
         color: 'black',
-        cost: '350',
-        link0: 'img/_skirt/polkaholics/1/0.jpg',
-        link1: 'img/_skirt/polkaholics/1/1.jpg',
-        link2: 'img/_skirt/polkaholics/1/2.jpg',
-        manufacturer: 'polkaholics',
-        Made: 'VietNam',
+        cost: '33',
+        link0: 'img/jeans/Forever 21/High-Rise Skinny Jeans $33.00/j5.jpg',
+        link1: 'img/jeans/Forever 21/High-Rise Skinny Jeans $33.00/j3.jpg',
+        link2: 'img/jeans/Forever 21/High-Rise Skinny Jeans $33.00/j1.jpg',
+        manufacturer: 'forever 21',
+        Made: 'USA',
+        sell: '5'
+    },
+    //j003
+    {
+        id: 'j003',
+        size: 'S, M, L',
+        type: 'j',
+        color: 'blue',
+        cost: '28',
+        link0: 'img/jeans/Forever 21/Push-Up Ripped Skinny Ankle Jeans $28.00/j5.jpg',
+        link1: 'img/jeans/Forever 21/Push-Up Ripped Skinny Ankle Jeans $28.00/j3.jpg',
+        link2: 'img/jeans/Forever 21/Push-Up Ripped Skinny Ankle Jeans $28.00/j1.jpg',
+        manufacturer: 'forever 21',
+        Made: 'USE',
         sell: '9'
     },
+
+    //Indyan
+    //j004
     {
-        id: '000s0p2',
+        id: 'j004',
         size: 'S, M, L',
-        type: 's',
-        color: 'white',
-        cost: '390',
-        link0: 'img/_skirt/polkaholics/2/0.jpg',
-        link1: 'img/_skirt/polkaholics/2/1.jpg',
-        link2: 'img/_skirt/polkaholics/2/2.jpg',
-        manufacturer: 'polkaholics',
+        type: 'j',
+        color: 'black',
+        cost: '31',
+        link0: 'img/jeans/Indyan/Corduroy Flare Pants $31.00/j5.jpg',
+        link1: 'img/jeans/Indyan/Corduroy Flare Pants $31.00/j3.jpg',
+        link2: 'img/jeans/Indyan/Corduroy Flare Pants $31.00/j1.jpg',
+        manufacturer: 'Indyan',
+        Made: 'India',
+        sell: '7'
+    },
+    //j005
+    {
+        id: 'j005',
+        size: 'S, M, L',
+        type: 'j',
+        color: 'black',
+        cost: '18',
+        link0: 'img/jeans/Indyan/High-Rise Skinny Jeans $18.00/j5.jpg',
+        link1: 'img/jeans/Indyan/High-Rise Skinny Jeans $18.00/j3.jpg',
+        link2: 'img/jeans/Indyan/High-Rise Skinny Jeans $18.00/j1.jpg',
+        manufacturer: 'Indyan',
+        Made: 'India',
+        sell: '6'
+    },
+    //j006
+    {
+        id: 'j006',
+        size: 'S, M, L',
+        type: 'j',
+        color: 'blue',
+        cost: '28',
+        link0: 'img/jeans/Indyan/Push-Up Distressed Skinny Ankle Jeans $28.00/j5.jpg',
+        link1: 'img/jeans/Indyan/Push-Up Distressed Skinny Ankle Jeans $28.00/j3.jpg',
+        link2: 'img/jeans/Indyan/Push-Up Distressed Skinny Ankle Jeans $28.00/j2.jpg',
+        manufacturer: 'Indyan',
+        Made: 'India',
+        sell: '2'
+    },
+
+    //Ivymoda
+    //j007
+    {
+        id: 'j007',
+        size: 'S, M, L',
+        type: 'j',
+        color: 'blue',
+        cost: '36',
+        link0: 'img/jeans/Ivymoda/Distressed Frayed Ankle Jeans $36.00/j5.jpg',
+        link1: 'img/jeans/Ivymoda/Distressed Frayed Ankle Jeans $36.00/j3.jpg',
+        link2: 'img/jeans/Ivymoda/Distressed Frayed Ankle Jeans $36.00/j1.jpg',
+        manufacturer: 'Ivymoda',
+        Made: 'VietNam',
+        sell: '3'
+    },
+    //j008
+    {
+        id: 'j008',
+        size: 'S, M, L',
+        type: 'j',
+        color: 'black',
+        cost: '28',
+        link0: 'img/jeans/Ivymoda/Push-Up Skinny High-Rise Ankle Jeans $28.00/j5.jpg',
+        link1: 'img/jeans/Ivymoda/Push-Up Skinny High-Rise Ankle Jeans $28.00/j4.jpg',
+        link2: 'img/jeans/Ivymoda/Push-Up Skinny High-Rise Ankle Jeans $28.00/j3.jpg',
+        manufacturer: 'Ivymoda',
+        Made: 'VietNam',
+        sell: '7'
+    },
+    //j009
+    {
+        id: 'j009',
+        size: 'S, M, L',
+        type: 'j',
+        color: 'blue',
+        cost: '37',
+        link0: 'img/jeans/Ivymoda/The Fairfax High-Rise Skinny Jeans $37.00/j5.jpg',
+        link1: 'img/jeans/Ivymoda/The Fairfax High-Rise Skinny Jeans $37.00/j4.jpg',
+        link2: 'img/jeans/Ivymoda/The Fairfax High-Rise Skinny Jeans $37.00/j3.jpg',
+        manufacturer: 'Ivymoda',
         Made: 'VietNam',
         sell: '7'
     },
 
-    //
+    //K&K
+    //j010
     {
-        id: '000s0h1',
-        size: 'S, M, L',
-        type: 's',
-        color: 'brown',
-        cost: '300',
-        link0: 'img/_skirt/hoivu/1/0.jpg',
-        link1: 'img/_skirt/hoivu/1/1.jpg',
-        link2: 'img/_skirt/hoivu/1/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
-        sell: '6'
-    },
-    {
-        id: '000s0h2',
-        size: 'S, M, L',
-        type: 's',
-        color: 'brown',
-        cost: '350',
-        link0: 'img/_skirt/hoivu/2/0.jpg',
-        link1: 'img/_skirt/hoivu/2/1.jpg',
-        link2: 'img/_skirt/hoivu/2/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
-        sell: '2'
-    },
-
-    //
-    {
-        id: '000s0s1',
+        id: 'j010',
         size: 'S, M, L',
         type: 's',
         color: 'blue',
-        cost: '300',
-        link0: 'img/_skirt/solei/1/0.jpg',
-        link1: 'img/_skirt/solei/1/1.jpg',
-        link2: 'img/_skirt/solei/1/2.jpg',
-        manufacturer: 'solei',
-        Made: 'VietNam',
-        sell: '3'
-    },
-    {
-        id: '000s0s2',
-        size: 'S, M, L',
-        type: 's',
-        color: 'cream',
-        cost: '320',
-        link0: 'img/_skirt/solei/2/0.jpg',
-        link1: 'img/_skirt/solei/2/1.jpg',
-        link2: 'img/_skirt/solei/2/2.jpg',
-        manufacturer: 'solei',
-        Made: 'VietNam',
-        sell: '7'
-    },
-
-    //
-    {
-        id: '000s0r1',
-        size: 'S, M, L',
-        type: 's',
-        color: 'cream',
-        cost: '300',
-        link0: 'img/_skirt/rosier/1/0.jpg',
-        link1: 'img/_skirt/rosier/1/1.jpg',
-        link2: 'img/_skirt/rosier/1/2.jpg',
-        manufacturer: 'rosier',
-        Made: 'VietNam',
-        sell: '5'
-    },
-    {
-        id: '000s0r2',
-        size: 'S, M, L',
-        type: 's',
-        color: 'white',
-        cost: '280',
-        link0: 'img/_skirt/rosier/2/0.jpg',
-        link1: 'img/_skirt/rosier/2/1.jpg',
-        link2: 'img/_skirt/rosier/2/2.jpg',
-        manufacturer: 'rosier',
+        cost: '28',
+        link0: 'img/jeans/K&K/Distressed Release-Hem Skinny Jeans $28.00/j5.jpg',
+        link1: 'img/jeans/K&K/Distressed Release-Hem Skinny Jeans $28.00/j4.jpg',
+        link2: 'img/jeans/K&K/Distressed Release-Hem Skinny Jeans $28.00/j3.jpg',
+        manufacturer: 'K&K',
         Made: 'VietNam',
         sell: '2'
     },
-
-    //
+    //j011
     {
-        id: '0000ch1',
-        size: 'free size',
-        type: 'c',
-        color: 'black blue',
-        cost: '750',
-        link0: 'img/_coat/hoivu/1/0.jpg',
-        link1: 'img/_coat/hoivu/1/1.jpg',
-        link2: 'img/_coat/hoivu/1/2.jpg',
-        manufacturer: 'hoivu',
+        id: 'j011',
+        size: 'S, M, L',
+        type: 'j',
+        color: 'white',
+        cost: '32',
+        link0: 'img/jeans/K&K/High-Rise Skinny Jeans $32.00/j5.jpg',
+        link1: 'img/jeans/K&K/High-Rise Skinny Jeans $32.00/j3.jpg',
+        link2: 'img/jeans/K&K/High-Rise Skinny Jeans $32.00/j1.jpg',
+        manufacturer: 'K&K',
         Made: 'VietNam',
         sell: '3'
     },
+    //j012
     {
-        id: '0000ch2',
-        size: 'L',
+        id: 'j012',
+        size: 'S, M, L',
         type: 'c',
         color: 'black',
-        cost: '795',
-        link0: 'img/_coat/hoivu/2/0.jpg',
-        link1: 'img/_coat/hoivu/2/1.jpg',
-        link2: 'img/_coat/hoivu/2/2.jpg',
-        manufacturer: 'hoivu',
+        cost: '34',
+        link0: 'img/jeans/K&K/The Sunset Super High-Rise Skinny Jeans $34.00/j5.jpg',
+        link1: 'img/jeans/K&K/The Sunset Super High-Rise Skinny Jeans $34.00/j3.jpg',
+        link2: 'img/jeans/K&K/The Sunset Super High-Rise Skinny Jeans $34.00/j1.jpg',
+        manufacturer: 'K&K',
         Made: 'VietNam',
         sell: '9'
     },
 
     //jackets&coat
-    //
+    //Forever 21
+    //jc001
     {
-        id: '0000ch3',
+        id: 'jc001',
         size: 'S, M, L',
-        type: 'c',
-        color: 'white',
-        cost: '795',
-        link0: 'img/_coat/hoivu/3/0.jpg',
-        link1: 'img/_coat/hoivu/3/1.jpg',
-        link2: 'img/_coat/hoivu/3/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
+        type: 'jc',
+        color: 'blue',
+        cost: '20',
+        link0: 'img/Jackets&Coats/Forever 21/Faded Denim Jacket $20.00/jk5.jpg',
+        link1: 'img/Jackets&Coats/Forever 21/Faded Denim Jacket $20.00/jk3.jpg',
+        link2: 'img/Jackets&Coats/Forever 21/Faded Denim Jacket $20.00/jk1.jpg',
+        manufacturer: 'forever 21',
+        Made: 'USA',
         sell: '8'
     },
+    //jc002
     {
-        id: '0000ch4',
-        size: 'S,M,L',
-        type: 'c',
-        color: 'black, white, dark green',
-        cost: '695',
-        link0: 'img/_coat/hoivu/4/0.jpg',
-        link1: 'img/_coat/hoivu/4/1.jpg',
-        link2: 'img/_coat/hoivu/4/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
+        id: 'jc002',
+        size: 'S, M, L',
+        type: 'jc',
+        color: 'black',
+        cost: '14',
+        link0: 'img/Jackets&Coats/Forever 21/Leopard Print-Trim Blazer $14.00/jk5.jpg',
+        link1: 'img/Jackets&Coats/Forever 21/Leopard Print-Trim Blazer $14.00/jk3.jpg',
+        link2: 'img/Jackets&Coats/Forever 21/Leopard Print-Trim Blazer $14.00/jk1.jpg',
+        manufacturer: 'forever 21',
+        Made: 'USA',
         sell: '5'
+    },
+    //jc003
+    {
+        id: 'jc003',
+        size: 'S, M, L',
+        type: 'jc',
+        color: 'black',
+        cost: '10.99',
+        link0: 'img/Jackets&Coats/Forever 21/Longline Bomber Jacket $10.99/jk1.jpg',
+        link1: 'img/Jackets&Coats/Forever 21/Longline Bomber Jacket $10.99/jk3.jpg',
+        link2: 'img/Jackets&Coats/Forever 21/Longline Bomber Jacket $10.99/jk2.jpg',
+        manufacturer: 'forever 21',
+        Made: 'USA',
+        sell: '11'
     },
 
     //
-    {
-        id: '0000ch5',
-        size: 'M, L, XL, 2XL',
-        type: 'c',
-        color: 'cream',
-        cost: '950',
-        link0: 'img/_coat/hoivu/5/0.jpg',
-        link1: 'img/_coat/hoivu/5/1.jpg',
-        link2: 'img/_coat/hoivu/5/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
-        sell: '11'
-    },
+    //
     {
         id: '0000ch6',
         size: 'XS, S, M, L, XL',
@@ -755,7 +766,6 @@ var ds = [
         Made: 'VietNam',
         sell: '4'
     },
-
     //
     {
         id: '0000cr1',
@@ -770,6 +780,7 @@ var ds = [
         Made: 'VietNam',
         sell: '8'
     },
+    //
     {
         id: '0000cr2',
         size: 'S, M, L',
@@ -785,6 +796,7 @@ var ds = [
     },
 
     //
+    //
     {
         id: '0000cr3',
         size: 'S, M, L',
@@ -798,6 +810,7 @@ var ds = [
         Made: 'VietNam',
         sell: '9'
     },
+    //
     {
         id: '0000cr4',
         size: 'S, M, L',
@@ -811,7 +824,6 @@ var ds = [
         Made: 'VietNam',
         sell: '3'
     },
-
     //
     {
         id: '00000g1s0',
@@ -955,49 +967,6 @@ var ds = [
     },
 
     //
-    {
-        id: '00000h40b',
-        size: '&nbsp',
-        type: '_b',
-        color: 'mix',
-        cost: '195',
-        link0: 'img/_bag/hoivu/4/0.jpg',
-        link1: 'img/_bag/hoivu/4/1.jpg',
-        link2: 'img/_bag/hoivu/4/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
-        sell: '42'
-    },
-
-    {
-        id: '00000h40b',
-        size: '&nbsp',
-        type: '_b',
-        color: 'mix',
-        cost: '195',
-        link0: 'img/_bag/hoivu/4/0.jpg',
-        link1: 'img/_bag/hoivu/4/1.jpg',
-        link2: 'img/_bag/hoivu/4/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
-        sell: '42'
-    },
-
-    //
-    {
-        id: '00000h40b',
-        size: '&nbsp',
-        type: '_b',
-        color: 'mix',
-        cost: '195',
-        link0: 'img/_bag/hoivu/4/0.jpg',
-        link1: 'img/_bag/hoivu/4/1.jpg',
-        link2: 'img/_bag/hoivu/4/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
-        sell: '42'
-    },
-
     {
         id: '00000h40b',
         size: '&nbsp',
