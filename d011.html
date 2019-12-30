@@ -430,6 +430,34 @@
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " ep_active";
         }
+        $(function () {
+            var temp = new Object;
+            for (var j = 0; j < 50; ++j) {
+                if (ds[j].id == 'd011') { //id cua quan ao bat buoc phai dien vao
+                    temp = ds[j];
+                }
+            }
+            $("#main").append( //xuat ra thong bao so sanh
+                '<h2>ID: ' + temp.id + '</h2>' +
+                '<h2>Cost: $' + temp.cost + '</h2>' +
+                '<hr>' +
+                '<strong>Product Informations</strong>' +
+                '<ul>' +
+                '<li>Color: ' + temp.color + '</li>' +
+                '<li>Size: ' + temp.size + '</li>' +
+                '<li>Made in: ' + temp.Made + '</li>' +
+                '</ul>' +
+                '<hr>' +
+                '<div class="text-center">' +
+                '<button class="btn btn-danger " style=" width: 80%; padding: 10px">Add To Cart</button>' +
+                '<a href="' + temp.manufacturer + '.html">' +
+                '<button class="btn btn-default" style=" width: 80%; margin-top: 10px; padding: 10px" id="contact">Contact</button>' +
+                '<hr>' +
+                '<img src="img/logo/logoK&K.jpg" alt="0" width="50%">' +
+                '</a>' +
+                '</div>'
+            );
+        })
     </script>
 </body>
 
