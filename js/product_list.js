@@ -21,7 +21,7 @@ var ds = [
         size: 'S,M,L',
         type: 'd',
         color: 'pink',
-        cost: '80',
+        cost: '61.35',
         link0: 'img/dress/indya/pink polka t006 80.2$/1.jpg',
         link1: 'img/dress/indya/pink polka t006 80.2$/1.jpg',
         link2: 'img/dress/indya/pink polka t006 80.2$/1.jpg',
@@ -35,7 +35,7 @@ var ds = [
         size: 'free size',
         type: 'd',
         color: 'orange',
-        cost: '69',
+        cost: '45',
         link0: 'img/dress/indya/Mustard Solid Maxi t005 69.3$/1.jpg',
         link1: 'img/dress/indya/Mustard Solid Maxi t005 69.3$/3.jpg',
         link2: 'img/dress/indya/Mustard Solid Maxi t005 69.3$/5.jpg',
@@ -113,7 +113,7 @@ var ds = [
         link0: 'img/dress/forever21/t001 72.5$/1.jpg',
         link1: 'img/dress/forever21/t001 72.5$/2.jpg',
         link2: 'img/dress/forever21/t001 72.5$/3.jpg',
-        manufacturer: 'hoivu',
+        manufacturer: 'forever 21',
         Made: 'USA',
         sell: '5'
     },
@@ -143,7 +143,7 @@ var ds = [
         link0: 'img/dress/k&k/High-Low Crew Neck Dress t010 65$/4.jpg',
         link1: 'img/dress/k&k/High-Low Crew Neck Dress t010 65$/2.jpg',
         link2: 'img/dress/k&k/High-Low Crew Neck Dress t010 65$/1.jpg',
-        manufacturer: 'k&k',
+        manufacturer: 'kk',
         Made: 'VietNam',
         sell: '8'
     },
@@ -157,7 +157,7 @@ var ds = [
         link0: 'img/dress/k&k/V-Neck Ribbed Bodycon Dress t012 37$/1.jpg',
         link1: 'img/dress/k&k/V-Neck Ribbed Bodycon Dress t012 37$/2.jpg',
         link2: 'img/dress/k&k/V-Neck Ribbed Bodycon Dress t012 37$/3.jpg',
-        manufacturer: 'k&k',
+        manufacturer: 'kk',
         Made: 'VietNam',
         sell: '3'
     },
@@ -171,7 +171,7 @@ var ds = [
         link0: 'img/dress/k&k/Satin Cami Dress t011 54$/1.jpg',
         link1: 'img/dress/k&k/Satin Cami Dress t011 54$/2.jpg',
         link2: 'img/dress/k&k/Satin Cami Dress t011 54$/3.jpg',
-        manufacturer: 'k&k',
+        manufacturer: 'kk',
         Made: 'VietNam',
         sell: '9'
     },
@@ -228,7 +228,7 @@ var ds = [
         size: 'S,M,L',
         type: 't',
         color: 'black',
-        cost: '30',
+        cost: '62',
         link0: 'img/tops/forever21/d001/1.jpg',
         link1: 'img/tops/forever21/d001/2.jpg',
         link2: 'img/tops/forever21/d001/5.jpg',
@@ -242,7 +242,7 @@ var ds = [
         size: 'S,M,L',
         type: 't',
         color: 'blue sky',
-        cost: '40',
+        cost: '39',
         link0: 'img/tops/forever21/d002/5a.jpg',
         link1: 'img/tops/forever21/d002/4a.jpg',
         link2: 'img/tops/forever21/d002/3a.jpg',
@@ -304,43 +304,43 @@ var ds = [
         link0: 'img/tops/ivymoda/d007/4i.jpg',
         link1: 'img/tops/ivymoda/d007/2i.jpg',
         link2: 'img/tops/ivymoda/d007/1i.jpg',
-        manufacturer: 'solei',
+        manufacturer: 'ivymoda',
         Made: 'VietNam',
         sell: '9'
     },
 
     //k&k
-    //
+    //d010
     {
         id: 't0000s2',
         size: 'S,M,L',
         type: 't',
-        color: 'black',
-        cost: '220',
-        link0: 'img/_top/solei/2/0.jpg',
-        link1: 'img/_top/solei/2/1.jpg',
-        link2: 'img/_top/solei/2/2.jpg',
-        manufacturer: 'solei',
+        color: 'teal',
+        cost: '51.6',
+        link0: 'img/tops/K&k/d010 51.6$/5q.jpg',
+        link1: 'img/tops/K&k/d010 51.6$/1q.jpg',
+        link2: 'img/tops/K&k/d010 51.6$/3q.jpg',
+        manufacturer: 'kk',
         Made: 'VietNam',
         sell: '1'
     },
-    //
+    //d011
     {
-        id: 't0000r1',
+        id: 'd011',
         size: 'free size',
         type: 't',
         color: 'black ',
-        cost: '300',
-        link0: 'img/_top/rosier/1/0.jpg',
-        link1: 'img/_top/rosier/1/1.jpg',
-        link2: 'img/_top/rosier/1/2.jpg',
-        manufacturer: 'rosier',
+        cost: '54',
+        link0: 'img/tops/K&k/d011 54$/1s.jpg',
+        link1: 'img/tops/K&k/d011 54$/2s.jpg',
+        link2: 'img/tops/K&k/d011 54$/4s.jpg',
+        manufacturer: 'kk',
         Made: 'VietNam',
         sell: '7'
     },
-    //
+    //d012
     {
-        id: 't0000r2',
+        id: 'd012',
         size: 'free size',
         type: 't',
         color: 'gray ',
@@ -348,7 +348,7 @@ var ds = [
         link0: 'img/_top/rosier/2/0.jpg',
         link1: 'img/_top/rosier/2/1.jpg',
         link2: 'img/_top/rosier/2/2.jpg',
-        manufacturer: 'rosier',
+        manufacturer: 'kk',
         Made: 'VietNam',
         sell: '4'
     },
@@ -751,93 +751,96 @@ var ds = [
         sell: '11'
     },
 
-    //
-    //
+    //indya
+    //jc004
     {
-        id: '0000ch6',
+        id: 'jc004',
         size: 'XS, S, M, L, XL',
-        type: 'c',
-        color: 'brown, blue',
-        cost: '850',
-        link0: 'img/_coat/hoivu/6/0.jpg',
-        link1: 'img/_coat/hoivu/6/1.jpg',
-        link2: 'img/_coat/hoivu/6/2.jpg',
-        manufacturer: 'hoivu',
-        Made: 'VietNam',
+        type: 'jc',
+        color: 'brown',
+        cost: '22',
+        link0: 'img/Jackets&Coats/Indyan/Faux Shearling Chevron Pullover $22.00/jk1.jpg',
+        link1: 'img/Jackets&Coats/Indyan/Faux Shearling Chevron Pullover $22.00/jk3.jpg',
+        link2: 'img/Jackets&Coats/Indyan/Faux Shearling Chevron Pullover $22.00/jk2.jpg',
+        manufacturer: 'indya',
+        Made: 'India',
         sell: '4'
     },
-    //
+    //jc005
     {
-        id: '0000cr1',
-        size: 'free size',
-        type: 'c',
-        color: 'pink',
-        cost: '750',
-        link0: 'img/_coat/rosier/1/0.jpg',
-        link1: 'img/_coat/rosier/1/1.jpg',
-        link2: 'img/_coat/rosier/1/2.jpg',
-        manufacturer: 'rosier',
-        Made: 'VietNam',
+        id: 'jc005',
+        size: 'XS, S, M, L, XL',
+        type: 'jc',
+        color: 'brown',
+        cost: '24',
+        link0: 'img/Jackets&Coats/Indyan/Hooded Faux Fur Lining Jacket $24.00/jk5.jpg',
+        link1: 'img/Jackets&Coats/Indyan/Hooded Faux Fur Lining Jacket $24.00/jk3.jpg',
+        link2: 'img/Jackets&Coats/Indyan/Hooded Faux Fur Lining Jacket $24.00/jk4.jpg',
+        manufacturer: 'indya',
+        Made: 'India',
         sell: '8'
     },
-    //
+    //jc006
     {
-        id: '0000cr2',
-        size: 'S, M, L',
-        type: 'c',
-        color: 'black',
-        cost: '680',
-        link0: 'img/_coat/rosier/2/0.jpg',
-        link1: 'img/_coat/rosier/2/1.jpg',
-        link2: 'img/_coat/rosier/2/2.jpg',
-        manufacturer: 'rosier',
-        Made: 'VietNam',
+        id: 'jc006',
+        size: 'XS, S, M, L, XL',
+        type: 'jc',
+        color: 'brown',
+        cost: '14',
+        link0: 'img/Jackets&Coats/Indyan/Hooded Utility Jacket $14.00/jk1.jpg',
+        link1: 'img/Jackets&Coats/Indyan/Hooded Utility Jacket $14.00/jk1.jpg',
+        link2: 'img/Jackets&Coats/Indyan/Hooded Utility Jacket $14.00/jk1.jpg',
+        manufacturer: 'indya',
+        Made: 'India',
         sell: '5'
     },
 
-    //
-    //
+    //Ivymoda
+    //jc007
     {
-        id: '0000cr3',
+        id: 'jc007',
         size: 'S, M, L',
-        type: 'c',
-        color: 'black',
-        cost: '800',
-        link0: 'img/_coat/rosier/3/0.jpg',
-        link1: 'img/_coat/rosier/3/1.jpg',
-        link2: 'img/_coat/rosier/3/2.jpg',
-        manufacturer: 'rosier',
+        type: 'jc',
+        color: 'moss-green',
+        cost: '23',
+        link0: 'img/Jackets&Coats/Ivymoda/Belted Twill Jacket $23.00/jk1.jpg',
+        link1: 'img/Jackets&Coats/Ivymoda/Belted Twill Jacket $23.00/jk2.jpg',
+        link2: 'img/Jackets&Coats/Ivymoda/Belted Twill Jacket $23.00/jk3.jpg',
+        manufacturer: 'ivymoda',
         Made: 'VietNam',
         sell: '9'
     },
-    //
+    //jc008
     {
-        id: '0000cr4',
+        id: 'jc008',
         size: 'S, M, L',
-        type: 'c',
-        color: 'black',
-        cost: '600',
-        link0: 'img/_coat/rosier/4/0.jpg',
-        link1: 'img/_coat/rosier/4/1.jpg',
-        link2: 'img/_coat/rosier/4/2.jpg',
-        manufacturer: 'rosier',
+        type: 'jc',
+        color: 'blue sky',
+        cost: '35',
+        link0: 'img/Jackets&Coats/Ivymoda/Chambray Puffer Jacket $35.00/jk2.jpg',
+        link1: 'img/Jackets&Coats/Ivymoda/Chambray Puffer Jacket $35.00/jk1.jpg',
+        link2: 'img/Jackets&Coats/Ivymoda/Chambray Puffer Jacket $35.00/jk5.jpg',
+        manufacturer: 'ivymoda',
         Made: 'VietNam',
         sell: '3'
     },
-    //
+    //jc009
     {
-        id: '00000g1s0',
-        size: '&nbsp',
-        type: 'shoes',
-        color: 'white',
-        cost: '250',
-        link0: 'img/_shoes/gordress/1/0.jpg',
-        link1: 'img/_shoes/gordress/1/1.jpg',
-        link2: 'img/_shoes/gordress/1/2.jpg',
+        id: 'jc009',
+        size: 'S, M, L',
+        type: 'jc',
+        color: 'black',
+        cost: '25',
+        link0: 'img/Jackets&Coats/Ivymoda/Striped-Trim Utility Jacket $25.00/jk5.jpg',
+        link1: 'img/Jackets&Coats/Ivymoda/Striped-Trim Utility Jacket $25.00/jk3.jpg',
+        link2: 'img/Jackets&Coats/Ivymoda/Striped-Trim Utility Jacket $25.00/jk2.jpg',
         manufacturer: 'gordress',
         Made: 'VietNam',
         sell: '12'
     },
+
+    //
+    //
     {
         id: '00000g2s0',
         size: '&nbsp',
@@ -851,7 +854,6 @@ var ds = [
         Made: 'VietNam',
         sell: '17'
     },
-
     //
     {
         id: '00000g3s0',
@@ -866,6 +868,7 @@ var ds = [
         Made: 'VietNam',
         sell: '22'
     },
+    //
     {
         id: '00000g4s0',
         size: '&nbsp',
