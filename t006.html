@@ -37,7 +37,7 @@
                     <span></span>
                 </button>
 
-                <a class="navbar-brand" href="Home.html" style="padding:0px"><img src="img/logo/logo.png" alt="logo"
+                <a class="navbar-brand" href="Home.html" style="padding:0px"><img src="img/logo/logo.png" alt=""
                         height="100%"></a>
             </div>
 
@@ -45,20 +45,22 @@
                 <ul class="nav navbar-nav">
                     <li><a href="Home.html">HOME</a></li>
                     <li class="dropdown">
-                        <a href="Store.html" class="dropdown-toggle">STORE</a>
+                        <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">STORE</a>
                         <ul class="dropdown-menu">
                             <li><a href="Store_Dress.html">DRESSES</a></li>
                             <li><a href="Store_Tops.html">TOPS</a></li>
                             <li><a href="Store_bottoms.html">BOTTOMS</a></li>
-                            <li><a href="Store_jeans.html">JEANS</a></li>
-                            <li><a href="#">JACKETS&COATS</a></li>
+                            <li><a href="#">JEANS</a></li>
+                            <li><a href="#">JACKETS & COATS</a></li>
                             <li><a href="#">SETS</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="Collection_hit.html">COLLECTION HIT</a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">COLLECTION HIT</a>
                     </li>
-                    <li><a href="Compare.html">COMPARE</a></li>
+                    <li><a href="#">COMPARE</a></li>
                     <li><a href="About_us.html">ABOUT US</a></li>
                     <li><a href="Contact_us.html">CONTACT US</a></li>
                 </ul>
@@ -67,6 +69,7 @@
 
         </div>
     </nav>
+
     <div class="container-fluid">
         <a href="home.html" style="font-family: cursive; color:black;">
             <div class="text-center" style="font-size: 3em; padding-top: 60px;">
@@ -198,11 +201,11 @@
                 <div class="col-md-4 text-left" id="main">
                     <div class="text-muted">
                         <p>ID: t006</p>
-                        <p>Name: Madam's Boutique t006</p>
+
                     </div>
                     <div>
                         <p>
-                            <h4 style="color: orange;"> $80.20</h4>
+                            <h4> $80.20</h4>
 
                         </p>
 
@@ -257,7 +260,7 @@
 
                 </a>
                 <div class="text-left well-sm">
-                    <p style="color: red;"> $72.50 </p>
+                    <p> $72.50 </p>
                     <p style="font-size: 15px;">Madam's Boutique t001</p>
 
                 </div>
@@ -268,7 +271,7 @@
                         class="img-responsive shadow">
                 </a>
                 <div class="text-left well-sm">
-                    <p style="color: red;"> $50.60 </p>
+                    <p> $50.60 </p>
                     <p style="font-size: 15px;">Madam's Boutique t007</p>
 
                 </div>
@@ -280,7 +283,7 @@
 
                 </a>
                 <div class="text-left well-sm">
-                    <p style="color: red;"> $90.60</p>
+                    <p> $90.60</p>
                     <p style="font-size: 15px;">Madam's Boutique t004</p>
 
                 </div>
@@ -290,7 +293,7 @@
                     <img src="imgss/dress/indya/pink polka t006 80.2$/1.jpg" alt="t003" class="img-responsive shadow">
                 </a>
                 <div class="text-left well-sm">
-                    <p style="color: red;"> $80.20 </p>
+                    <p> $80.20 </p>
                     <p style="font-size: 15px;">Madam's Boutique t006</p>
 
                 </div>
@@ -437,35 +440,6 @@
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " ep_active";
         }
-        //phan nay dung de so sanh
-        $(function () {
-            var temp = new Object;
-            for (var j = 0; j < 50; ++j) {
-                if (ds[j].id == 't006') { //id cua quan ao bat buoc phai dien vao
-                    temp = ds[j];
-                }
-            }
-            $("#main").append( //xuat ra thong bao so sanh
-                '<h2>ID: ' + temp.id + '</h2>' +
-                '<h2>Cost: $' + temp.cost + '</h2>' +
-                '<hr>' +
-                '<strong>Product Informations</strong>' +
-                '<ul>' +
-                '<li>Color: ' + temp.color + '</li>' +
-                '<li>Size: ' + temp.size + '</li>' +
-                '<li>Made in: ' + temp.Made + '</li>' +
-                '</ul>' +
-                '<hr>' +
-                '<div class="text-center">' +
-                '<button class="btn btn-danger " style=" width: 80%; padding: 10px">Add To Cart</button>' +
-                '<a href="' + temp.manufacturer + '.html">' +
-                '<button class="btn btn-default" style=" width: 80%; margin-top: 10px; padding: 10px" id="contact">Contact</button>' +
-                '<hr>' +
-                '<img src="img/logo/logoIndyan.jpg" alt="0" width="50%">' +
-                '</a>' +
-                '</div>'
-            );
-        })
     </script>
 </body>
 
