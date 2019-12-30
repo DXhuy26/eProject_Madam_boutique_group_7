@@ -37,7 +37,7 @@
                     <span></span>
                 </button>
 
-                <a class="navbar-brand" href="Home.html" style="padding:0px"><img src="img/logo/logo.png" alt="logo"
+                <a class="navbar-brand" href="Home.html" style="padding:0px"><img src="img/_logo/logo1.jpg" alt=""
                         height="100%"></a>
             </div>
 
@@ -45,20 +45,22 @@
                 <ul class="nav navbar-nav">
                     <li><a href="Home.html">HOME</a></li>
                     <li class="dropdown">
-                        <a href="Store.html" class="dropdown-toggle">STORE</a>
+                        <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">STORE</a>
                         <ul class="dropdown-menu">
                             <li><a href="Store_Dress.html">DRESSES</a></li>
                             <li><a href="Store_Tops.html">TOPS</a></li>
                             <li><a href="Store_bottoms.html">BOTTOMS</a></li>
-                            <li><a href="Store_jeans.html">JEANS</a></li>
-                            <li><a href="#">JACKETS&COATS</a></li>
+                            <li><a href="#">JEANS</a></li>
+                            <li><a href="#">JACKETS & COATS</a></li>
                             <li><a href="#">SETS</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="Collection_hit.html">COLLECTION HIT</a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">COLLECTION HIT</a>
                     </li>
-                    <li><a href="Compare.html">COMPARE</a></li>
+                    <li><a href="#">COMPARE</a></li>
                     <li><a href="About_us.html">ABOUT US</a></li>
                     <li><a href="Contact_us.html">CONTACT US</a></li>
                 </ul>
@@ -193,11 +195,11 @@
                 <div class="col-md-4 text-left" id="main">
                     <div class="text-muted">
                         <p>ID: d004</p>
-                        <p>Name: Madam's Boutique d004 </p>
+
                     </div>
                     <div>
                         <p>
-                            <h4 style="color: orange;"> $90.00</h4>
+                            <h4> $90.00</h4>
 
                         </p>
 
@@ -251,7 +253,7 @@
 
                 </a>
                 <div class="text-left well-sm">
-                    <p style="color: red;"> $51.30 </p>
+                    <p> $51.30 </p>
                     <p style="font-size: 15px;">Madam's Boutique d007</p>
 
                 </div>
@@ -261,7 +263,7 @@
                     <img src="imgss/tops/ivymoda/d008 59.1$/1k.jpg" alt="" class="img-responsive shadow">
                 </a>
                 <div class="text-left well-sm">
-                    <p style="color: red;"> $59.10 </p>
+                    <p> $59.10 </p>
                     <p style="font-size: 15px;">Madam's Boutique d008</p>
 
                 </div>
@@ -273,7 +275,7 @@
 
                 </a>
                 <div class="text-left well-sm">
-                    <p style="color: red;"> $90.00 </p>
+                    <p> $90.00 </p>
                     <p style="font-size: 15px;">Madam's Boutique d001</p>
 
                 </div>
@@ -283,7 +285,7 @@
                     <img src="imgss/tops/K&k/d011 54$/1s.jpg" alt="" class="img-responsive shadow">
                 </a>
                 <div class="text-left well-sm">
-                    <p style="color: red;"> $54.00 </p>
+                    <p> $54.00 </p>
                     <p style="font-size: 15px;">Madam's Boutique d010</p>
 
                 </div>
@@ -426,35 +428,6 @@
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " ep_active";
         }
-         //phan nay dung de so sanh
-         $(function () {
-            var temp = new Object;
-            for (var j = 0; j < 50; ++j) {
-                if (ds[j].id == 'd004') { //id cua quan ao bat buoc phai dien vao
-                    temp = ds[j];
-                }
-            }
-            $("#main").append( //xuat ra thong bao so sanh
-                '<h2>ID: ' + temp.id + '</h2>' +
-                '<h2>Cost: $' + temp.cost + '</h2>' +
-                '<hr>' +
-                '<strong>Product Informations</strong>' +
-                '<ul>' +
-                '<li>Color: ' + temp.color + '</li>' +
-                '<li>Size: ' + temp.size + '</li>' +
-                '<li>Made in: ' + temp.Made + '</li>' +
-                '</ul>' +
-                '<hr>' +
-                '<div class="text-center">' +
-                '<button class="btn btn-danger " style=" width: 80%; padding: 10px">Add To Cart</button>' +
-                '<a href="' + temp.manufacturer + '.html">' +
-                '<button class="btn btn-default" style=" width: 80%; margin-top: 10px; padding: 10px" id="contact">Contact</button>' +
-                '<hr>' +
-                '<img src="img/logo/logoIndyan.jpg" alt="0" width="50%">' +
-                '</a>' +
-                '</div>'
-            );
-        })
     </script>
 </body>
 

@@ -16,6 +16,14 @@
     <script src="js/home.js"></script>
     <link rel="stylesheet" href="css/slide.css">
 
+    <style>
+        body {
+            position: relative;
+        }
+    </style>
+
+
+
 </head>
 
 <body>
@@ -23,14 +31,14 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
+                <a class="navbar-brand" href="home.html" style="padding: 0px">
+                    <img src="img/logo/logo.png" alt="logo" height="100%"></a>
 
-                <a class="navbar-brand" href="Home.html" style="padding:0px"><img src="img/logo/logo.png" alt="logo"
-                        height="100%"></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
 
             <div class="collapse navbar-collapse" id="myNavbar">
@@ -47,19 +55,18 @@
                             <li><a href="#">SETS</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="Collection_hit.html">COLLECTION HIT</a>
-                    </li>
+
                     <li><a href="Compare.html">COMPARE</a></li>
+
+                    <li><a href="Collection_hit.html" class="dropdown-toggle">COLLECTION HIT</a></li>
+
                     <li><a href="About_us.html">ABOUT US</a></li>
+
                     <li><a href="Contact_us.html">CONTACT US</a></li>
                 </ul>
-
             </div>
-
         </div>
     </nav>
-
 
     <div class="container-fluid">
         <a href="home.html" style="font-family: cursive; color:black;">
@@ -91,14 +98,14 @@
                     style="color: rgb(32, 27, 27); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">SET</a>
             </div>
         </div>
-
         <div class="col-md-6">
             <div class="container text-right">
                 <p data-toggle="collapse" data-target="#demo"> <span
                         style="font-family: Georgia, 'Times New Roman', Times, serif;">Heaven Fashion bring name Madam's</span> &nbsp; <span class="glyphicon glyphicon-chevron-down"></span> </p>
             </div>
-        </div>
 
+
+        </div>
         <div class="col-md-12 text-muted text-center" style="padding-top: 30px;">
             <a href=""id="demo" class="collapse"> 
                 <img src="imgss/logo/12.jpg" alt="">
@@ -106,6 +113,7 @@
         </div>
 
     </div>
+
 
     <hr>
     <section>
@@ -115,6 +123,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="galary">
+
                                 <a class="ep_dot" onclick="currentSlide(1)">
                                     <img src="imgss/tops/forever21/d001 62$/1.jpg" alt="1.jpg"
                                         width="100%">
@@ -142,22 +151,28 @@
                         <div class="col-md-8">
                             <div class="slideshow-container">
                                 <div class="ep_mySlides ep_fade">
+
                                     <img src="imgss/tops/forever21/d001 62$/1.jpg" style="width:100%"
                                         alt="1.jpg">
+
                                 </div>
 
+
                                 <div class="ep_mySlides ep_fade">
+
                                     <img src="imgss/tops/forever21/d001 62$/2.jpg" style="width:100%"
                                         alt="2.jpg">
 
                                 </div>
 
                                 <div class="ep_mySlides ep_fade">
+
                                     <img src="imgss/tops/forever21/d001 62$/3.jpg" style="width:100%"
                                         alt="3.jpg">
                                 </div>
 
                                 <div class="ep_mySlides ep_fade">
+
                                     <img src="imgss/tops/forever21/d001 62$/4.jpg" style="width:100%"
                                         alt="4.jpg">
                                 </div>
@@ -171,19 +186,30 @@
                                 <a class="ep_prev" onclick="plusSlides(-1)">&#10094;</a>
                                 <a class="ep_next" onclick="plusSlides(1)">&#10095;</a>
                             </div>
+
                         </div>
+
+
+
                     </div>
+
+
+
+
+
                 </div>
 
                 <div class="col-md-4 text-left" id="main">
                     <div class="text-muted">
                         <p>ID: d001</p>
-                        <p>Name: Madam's Boutique d001 </p>
+                        
                     </div>
                     <div>
                         <p>
-                            <h4 style="color: orange;"> $62.00</h4>
+                            <h4> $62.00</h4>
+
                         </p>
+
                         <hr>
                     </div>
                     <div class="text-muted">
@@ -210,11 +236,18 @@
                         <h6 class="text-muted">- Model is 5'11" and wearing a Small</h6>
                     </div>
                 </div>
+
+
+
             </div>
+
+
+
+
+
         </div>
     </section>
     <hr>
-
     <div class="text-center">
         <p>YOU MIGHT ALSO LIKE</p>
     </div>
@@ -228,7 +261,7 @@
 
                 </a>
                 <div class="text-left well-sm">
-                    <p style="color: red;"> $51.30 </p>
+                    <p> $51.30 </p>
                     <p style="font-size: 15px;">Madam's Boutique d007</p>
 
                 </div>
@@ -239,7 +272,7 @@
 
                 </a>
                 <div class="text-left well-sm">
-                    <p style="color: red;"> $90.00 </p>
+                    <p> $90.00 </p>
                     <p style="font-size: 15px;">Madam's Boutique d004</p>
 
                 </div>
@@ -250,7 +283,7 @@
                         class="img-responsive shadow">
                 </a>
                 <div class="text-left well-sm">
-                    <p style="color: red;"> $54.00 </p>
+                    <p> $54.00 </p>
                     <p style="font-size: 15px;">Madam's Boutique d010</p>
 
                 </div>
@@ -261,11 +294,12 @@
                         class="img-responsive shadow">
                 </a>
                 <div class="text-left well-sm">
-                    <p style="color: red;"> $59.10 </p>
+                    <p> $59.10 </p>
                     <p style="font-size: 15px;">Madam's Boutique d008</p>
 
                 </div>
             </div>
+
         </div>
     </div>
     <br>
@@ -392,35 +426,6 @@
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " ep_active";
         }
-        //phan nay dung de so sanh
-        $(function () {
-            var temp = new Object;
-            for (var j = 0; j < 50; ++j) {
-                if (ds[j].id == 'd001') { //id cua quan ao bat buoc phai dien vao
-                    temp = ds[j];
-                }
-            }
-            $("#main").append( //xuat ra thong bao so sanh
-                '<h2>ID: ' + temp.id + '</h2>' +
-                '<h2>Cost: $' + temp.cost + '</h2>' +
-                '<hr>' +
-                '<strong>Product Informations</strong>' +
-                '<ul>' +
-                '<li>Color: ' + temp.color + '</li>' +
-                '<li>Size: ' + temp.size + '</li>' +
-                '<li>Made in: ' + temp.Made + '</li>' +
-                '</ul>' +
-                '<hr>' +
-                '<div class="text-center">' +
-                '<button class="btn btn-danger " style=" width: 80%; padding: 10px">Add To Cart</button>' +
-                '<a href="' + temp.manufacturer + '.html">' +
-                '<button class="btn btn-default" style=" width: 80%; margin-top: 10px; padding: 10px" id="contact">Contact</button>' +
-                '<hr>' +
-                '<img src="img/logo/logoForever.jpg" alt="0" width="50%">' +
-                '</a>' +
-                '</div>'
-            );
-        })
     </script>
 </body>
 
