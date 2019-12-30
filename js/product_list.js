@@ -140,8 +140,8 @@ var ds = [
         type: 'd',
         color: 'black',
         cost: '65',
-        link0: 'img/dress/k&k/High-Low Crew Neck Dress t010 65$/1.jpg',
-        link1: 'img/dress/k&k/High-Low Crew Neck Dress t010 65$/1.jpg',
+        link0: 'img/dress/k&k/High-Low Crew Neck Dress t010 65$/4.jpg',
+        link1: 'img/dress/k&k/High-Low Crew Neck Dress t010 65$/2.jpg',
         link2: 'img/dress/k&k/High-Low Crew Neck Dress t010 65$/1.jpg',
         manufacturer: 'k&k',
         Made: 'VietNam',
@@ -273,9 +273,9 @@ var ds = [
         type: 't',
         color: 'grey',
         cost: '24',
-        link0: 'img/tops/ivymoda/d008/1k.jpg',
+        link0: 'img/tops/ivymoda/d008/4k.jpg',
         link1: 'img/tops/ivymoda/d008/2k.jpg',
-        link2: 'img/tops/ivymoda/d008/4k.jpg',
+        link2: 'img/tops/ivymoda/d008/5k.jpg',
         manufacturer: 'ivymoda',
         Made: 'VietNam',
         sell: '3'
@@ -375,7 +375,7 @@ var ds = [
         size: 'S, M, L',
         type: 'b',
         color: 'gray',
-        cost: '30',
+        cost: '30.2',
         link0: 'img/bottoms/forever21/b002 $30.2/1.jpg',
         link1: 'img/bottoms/forever21/b002 $30.2/2.jpg',
         link2: 'img/bottoms/forever21/b002 $30.2/3.jpg',
@@ -389,7 +389,7 @@ var ds = [
         size: 'S, M, L',
         type: 'b',
         color: 'black',
-        cost: '24',
+        cost: '24.8',
         link0: 'img/bottoms/forever21/b003 $24.8/1.jpg',
         link1: 'img/bottoms/forever21/b003 $24.8/2.jpg',
         link2: 'img/bottoms/forever21/b003 $24.8/3.jpg',
@@ -419,7 +419,7 @@ var ds = [
         size: 'S, M, L',
         type: 'b',
         color: 'dark blue',
-        cost: '26',
+        cost: '26.8',
         link0: 'img/bottoms/indya/b005 $26.8/1.jpg',
         link1: 'img/bottoms/indya/b005 $26.8/2.jpg',
         link2: 'img/bottoms/indya/b005 $26.8/5.jpg',
@@ -433,7 +433,7 @@ var ds = [
         size: 'S, M, L',
         type: 'b',
         color: 'green',
-        cost: '40',
+        cost: '40.3',
         link0: 'img/bottoms/indya/b006 $40.3/1.jpg',
         link1: 'img/bottoms/indya/b006 $40.3/4.jpg',
         link2: 'img/bottoms/indya/b006 $40.3/5.jpg',
@@ -442,35 +442,93 @@ var ds = [
         sell: '7'
     },
 
-    //d007
+    //ivymoda
+    //b007
     {
-        id: 'd007',
+        id: 'b007',
         size: 'S, M, L',
         type: 'b',
-        color: 'gray',
+        color: 'black',
         cost: '30',
-        link0: 'img/bottoms/ivymoda/b007 $30/1.jpg',
+        link0: 'img/bottoms/ivymoda/b007 $30/5.jpg',
         link1: 'img/bottoms/ivymoda/b007 $30/2.jpg',
         link2: 'img/bottoms/ivymoda/b007 $30/3.jpg',
         manufacturer: 'ivymoda',
         Made: 'VietNam',
         sell: '5'
     },
-    //
+    //b008
     {
-        id: '0b000r2',
+        id: 'b008',
         size: 'S, M, L',
         type: 'b',
-        color: 'gray',
-        cost: '375',
-        link0: 'img/_bottom/rosier/2/0.jpg',
-        link1: 'img/_bottom/rosier/2/1.jpg',
-        link2: 'img/_bottom/rosier/2/2.jpg',
-        manufacturer: 'rosier',
+        color: 'pink',
+        cost: '25.6',
+        link0: 'img/bottoms/ivymoda/b008 $25.6/1.jpg',
+        link1: 'img/bottoms/ivymoda/b008 $25.6/3.jpg',
+        link2: 'img/bottoms/ivymoda/b008 $25.6/5.jpg',
+        manufacturer: 'ivymoda',
+        Made: 'VietNam',
+        sell: '7'
+    },
+    //b009
+    {
+        id: 'b009',
+        size: 'S, M, L',
+        type: 'b',
+        color: 'black',
+        cost: '21.6',
+        link0: 'img/bottoms/ivymoda/b009 $21.6/4.jpg',
+        link1: 'img/bottoms/ivymoda/b009 $21.6/3.jpg',
+        link2: 'img/bottoms/ivymoda/b009 $21.6/5.jpg',
+        manufacturer: 'ivymoda',
         Made: 'VietNam',
         sell: '7'
     },
 
+    //kk
+    //d010
+    {
+        id: 'd010',
+        size: 'S, M, L',
+        type: 's',
+        color: 'camo',
+        cost: '10.6',
+        link0: 'img/bottoms/k&k/d010 $10.6/1.jpg',
+        link1: 'img/bottoms/k&k/d010 $10.6/3.jpg',
+        link2: 'img/bottoms/k&k/d010 $10.6/4.jpg',
+        manufacturer: 'k&k',
+        Made: 'VietNam',
+        sell: '5'
+    },
+    //d011
+    {
+        id: 'd011',
+        size: 'S, M, L',
+        type: 's',
+        color: 'white',
+        cost: '20.7',
+        link0: 'img/bottoms/k&k/d011 $20.7/5.jpg',
+        link1: 'img/bottoms/k&k/d011 $20.7/1.jpg',
+        link2: 'img/bottoms/k&k/d011 $20.7/2.jpg',
+        manufacturer: 'k&k',
+        Made: 'VietNam',
+        sell: '5'
+    },
+    //d012
+    {
+        id: 'd012',
+        size: 'S, M, L',
+        type: 's',
+        color: 'blue fog',
+        cost: '31.4',
+        link0: 'img/bottoms/k&k/d012 $31/4.jpg',
+        link1: 'img/bottoms/k&k/d012 $31/1.jpg',
+        link2: 'img/bottoms/k&k/d012 $31/2.jpg',
+        manufacturer: 'k&k',
+        Made: 'VietNam',
+        sell: '5'
+    },
 
     //jeans
     //
@@ -478,12 +536,12 @@ var ds = [
         id: '000s0g1',
         size: 'S, M, L',
         type: 's',
-        color: 'black',
+        color: 'blue',
         cost: '280',
-        link0: 'img/_skirt/gordress/1/0.jpg',
+        link0: 'img/bottoms/Forever 21/Faded Skinny Overalls $31.00/j1.jpg',
         link1: 'img/_skirt/gordress/1/1.jpg',
         link2: 'img/_skirt/gordress/1/2.jpg',
-        manufacturer: 'gordress',
+        manufacturer: 'Forever 21',
         Made: 'VietNam',
         sell: '5'
     },
