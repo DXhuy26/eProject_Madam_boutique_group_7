@@ -3,6 +3,7 @@
   border-bottom: 1px solid rgba(0, 0, 0,0.2);
   background-color: #fff;
   text-align: center;
+  
 }
 
 .type{
@@ -19,6 +20,7 @@
  margin: 0;
  line-height: 2em;
 }
+
 #product p{
   margin: 0;
   line-height: 2em;

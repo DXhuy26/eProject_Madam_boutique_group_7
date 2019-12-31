@@ -37,7 +37,9 @@ body {
 	/*Scroll To Top Button*/
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
+	
 }
+
 
 /*font*/
 #font1 {
@@ -98,7 +100,6 @@ footer ul {
 footer a {
 	text-decoration: none;
 	color: rgb(224, 243, 156);
-	text-decoration: none;
 }
 
 .form-footer input[type="button"] {
@@ -188,7 +189,7 @@ footer {
 	/* Remove borders */
 	outline: none;
 	/* Remove outline */
-	background-color: red;
+	background-color: rgb(142, 153, 92);
 	/* Set a background color */
 	color: white;
 	/* Text color */
@@ -196,7 +197,7 @@ footer {
 	/* Add a mouse pointer on hover */
 	padding: 15px;
 	/* Some padding */
-	border-radius: 20px;
+	border-radius: 50px;
 	/* Rounded corners */
 	font-size: 18px;
 	/* Increase font size */
