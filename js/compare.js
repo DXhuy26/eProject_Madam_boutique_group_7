@@ -6,7 +6,7 @@ $(function () {
         for (i = 0; i < ds.length; ++i) {
 
             $("#showshop").append(
-                '<div class="col-sm-3 image  ' + ds[i].manufacturer + ' ' + ds[i].type + ' card" style = "margin-bottom: 2em" >' +
+                '<div class="col-sm-3 image  ' + ds[i].manufacturer + ' ' + ds[i].type + ' card" style = "pa" >' +
                 '<a href = "' + ds[i].id + '.html" target = "_blank"><img src="' + ds[i].link0 + '" class="img-responsive ep_fade ep_fade_0" style="width:100%" alt="Image"></a>' +
                 '<p>' + ds[i].id + '</p>' +
                 '<p>$' + ds[i].cost + '</p>' +
