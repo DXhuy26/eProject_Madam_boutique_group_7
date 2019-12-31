@@ -55,7 +55,7 @@
 
     <div class="jumbotron-fluid">
         <div class="text-center">
-            <img src="img/banner/banner1.jpg" alt="" width="100%" height="500px">
+            <img src="img/banner/store.jpg" alt="" width="100%">
         </div>
     </div>
     <br>
@@ -65,6 +65,7 @@
         <div class="col-sm-2">
             <div class="col">
                 <ol>CATEGORY</ol>
+                <hr>
                 <ol style="list-style-type: none;">
                     <li><a href="Store_Dress.html">DRESSES</a></li><br>
                     <li><a href="Store_Tops.html">TOPS</a></li><br>
@@ -76,12 +77,12 @@
             </div>
             <hr>
         </div>
-
+        <!--store list
         <div class="col-sm-10">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 well">
-                        <h3 style="text-align: center; font-size: 2em;">Madam's Boutique</h3>
+                        <h3 style="text-align: center; font-size: 2em;">New look</h3>
                     </div>
                     <div class="col-xs-12 col-sm-4">
                         <div class="card">
@@ -152,7 +153,7 @@
                 </div>
             </div>
 
-            <!--store list-->
+           
             <div id="mydiv">
                 <div class="container">
                     <div class="row">
@@ -436,7 +437,20 @@
                 </div>
             </div>
         </div>
+        -->
+
+        <div class="row col-sm-10 text-center">
+            <div class="col-sm-12 well text-center">
+                <p>New Look</p>
+            </div>
+            <div class="col-sm-12 well" id="main">
+                <div class="col-sm-12 text-center" id="showshop">
+                    <!--show product here-->
+                </div>
+            </div>
+        </div>
     </div>
+
 
 
     <!--button scroll-->
@@ -504,10 +518,27 @@
         </div>
     </footer>
 </body>
+
 <script src="js/home.js"></script>
+<script src="js/product_list.js"></script>
 <link rel="stylesheet" href="css/home.css">
 <link rel="stylesheet" href="css/carousel.css">
 <link rel="stylesheet" href="css/store.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+    //hiện toàn bộ quần áo
+$(function () {
+    var i;
+    for (i = 0; i < ds.length; ++i) {
 
+        $("#showshop").append(
+            '<div class="col-sm-3 image  ' + ds[i].manufacturer + ' ' + ds[i].type + '" style = "margin-bottom: 2em">' +
+            '<a href = "' + ds[i].id + '.html" target = "_blank"><img src="' + ds[i].link0 + '" class="img-responsive ep_fade ep_fade_0 card" style="width:100%" alt="Image"></a>' +
+            '<p>' + ds[i].id + '</p>' +
+            '<p>$' + ds[i].cost + '</p>' +
+            '</div>'
+        )
+    }
+});
+</script>
 </html>
