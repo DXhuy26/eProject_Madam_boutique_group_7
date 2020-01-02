@@ -243,9 +243,9 @@ var ds = [
         type: 't',
         color: 'blue sky',
         cost: '39',
-        link0: 'img/tops/forever21/d002/5a.jpg',
-        link1: 'img/tops/forever21/d002/4a.jpg',
-        link2: 'img/tops/forever21/d002/3a.jpg',
+        link0: 'imgss/tops/forever21/d002 39$/5a.jpg',
+        link1: 'imgss/tops/forever21/d002 39$/3a.jpg',
+        link2: 'imgss/tops/forever21/d002 39$/1a.jpg',
         manufacturer: 'forever21',
         Made: 'USA',
         sell: '7'
