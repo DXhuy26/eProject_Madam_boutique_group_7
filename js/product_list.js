@@ -301,9 +301,9 @@ var ds = [
         type: 't',
         color: 'white',
         cost: '280',
-        link0: 'img/tops/ivymoda/d007/4i.jpg',
-        link1: 'img/tops/ivymoda/d007/2i.jpg',
-        link2: 'img/tops/ivymoda/d007/1i.jpg',
+        link0: 'imgss/tops/ivymoda/d007 51.3$/1i.jpg',
+        link1: 'imgss/tops/ivymoda/d007 51.3$/2i.jpg',
+        link2: 'imgss/tops/ivymoda/d007 51.3$/3i.jpg',
         manufacturer: 'ivymoda',
         Made: 'VietNam',
         sell: '9'
