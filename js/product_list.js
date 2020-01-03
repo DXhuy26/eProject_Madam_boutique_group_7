@@ -208,10 +208,10 @@ var ds = [
     },
     //d006
     {
-        id: 'd0006',
+        id: 'd006',
         size: 'S,M,L',
         type: 't',
-        color: 'teal sky',
+        color: 'light blue',
         cost: '39',
         link0: 'img/tops/indya/d006/3r.jpg',
         link1: 'img/tops/indya/d006/2r.jpg',
