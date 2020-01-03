@@ -487,9 +487,9 @@ var ds = [
     },
 
     //kk
-    //d010
+    //b010
     {
-        id: 'd010',
+        id: 'b010',
         size: 'S, M, L',
         type: 'b',
         color: 'camo',
@@ -501,9 +501,9 @@ var ds = [
         Made: 'VietNam',
         sell: '5'
     },
-    //d011
+    //b011
     {
-        id: 'd011',
+        id: 'b011',
         size: 'S, M, L',
         type: 'b',
         color: 'white',
@@ -515,9 +515,9 @@ var ds = [
         Made: 'VietNam',
         sell: '5'
     },
-    //d012
+    //b012
     {
-        id: 'd012',
+        id: 'b012',
         size: 'S, M, L',
         type: 'b',
         color: 'blue fog',
